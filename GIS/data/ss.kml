@@ -1,0 +1,2047 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2"><Document>
+   <Style id="hfg">
+    <IconStyle>
+     <color>ffffffff</color>
+     <scale>0.5</scale>
+     <Icon>
+      <href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+     </Icon>
+     <hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+    </IconStyle>
+    <ListStyle>
+     <color>ff00c000</color>
+     <ItemIcon>
+      <href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+     </ItemIcon>
+    </ListStyle>
+   </Style>
+  
+   <Style id="hfy">
+    <IconStyle>
+     <color>ffffffff</color>
+     <scale>0.6</scale>
+     <Icon>
+      <href>http://maps.google.com/mapfiles/kml/paddle/ylw-blank.png</href>
+     </Icon>
+     <hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+    </IconStyle>
+    <ListStyle>
+     <color>ff00ffff</color>
+     <ItemIcon>
+      <href>http://maps.google.com/mapfiles/kml/paddle/ylw-blank-lv.png</href>
+     </ItemIcon>
+    </ListStyle>
+   </Style>
+  
+   <Style id="hfr">
+    <IconStyle>
+     <color>ffffffff</color>
+     <scale>0.7</scale>
+     <Icon>
+      <href>http://maps.google.com/mapfiles/kml/paddle/red-blank.png</href>
+     </Icon>
+     <hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+    </IconStyle>
+    <ListStyle>
+     <color>ff0000c0</color>
+     <ItemIcon>
+      <href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+     </ItemIcon>
+    </ListStyle>
+   </Style>
+  
+   <Style id="hfw">
+    <IconStyle>
+     <color>ffffffff</color>
+     <scale>0.5</scale>
+     <Icon>
+      <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+     </Icon>
+     <hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+    </IconStyle>
+    <ListStyle>
+     <color>ff0000c0</color>
+     <ItemIcon>
+      <href>http://maps.google.com/mapfiles/kml/paddle/wht-circle-lv.png</href>
+     </ItemIcon>
+    </ListStyle>
+   </Style>
+  
+   <Style id="hfd">
+    <IconStyle>
+     <color>ffffffff</color>
+     <scale>0.5</scale>
+     <Icon>
+      <href>http://maps.google.com/mapfiles/kml/paddle/red-diamond.png</href>
+     </Icon>
+     <hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+    </IconStyle>
+    <ListStyle>
+     <color>ffa6a6a6</color>
+     <ItemIcon>
+      <href>http://maps.google.com/mapfiles/kml/paddle/red-diamond-lv.png</href>
+     </ItemIcon>
+    </ListStyle>
+   </Style>
+  
+<Placemark>
+  <name>Bodega Marine Laboratory, CA (BML1)</name>
+  <description><![CDATA[<div><b>Bodega Marine Laboratory, CA</b><br/>Station ID: BML1<br/>Affiliation: BML<br/>Coords: 38.3174, -123.0723<br/>N 38 19.0430, W 123 4.3390<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.500 MHz<br/>Time: 2025-07-15 07:15:50 UTC<br/>Age: 0:21 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=BML1&net=BML&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-123.072317,38.317383,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Bodega Marine Laboratory Long Range, CA (BMLR)</name>
+  <description><![CDATA[<div><b>Bodega Marine Laboratory Long Range, CA</b><br/>Station ID: BMLR<br/>Affiliation: BML<br/>Coords: 38.3195, -123.0736<br/>N 38 19.1720, W 123 4.4170<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.463 MHz<br/>Time: 2025-07-15 07:15:51 UTC<br/>Age: 0:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=BMLR&net=BML&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-123.073617,38.319533,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Fort Bragg, CA (BRAG)</name>
+  <description><![CDATA[<div><b>Fort Bragg, CA</b><br/>Station ID: BRAG<br/>Affiliation: BML<br/>Coords: 39.4380, -123.8161<br/>N 39 26.2810, W 123 48.9670<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.785 MHz<br/>Time: 2025-07-15 07:15:51 UTC<br/>Age: 0:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=BRAG&net=BML&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-123.816117,39.438017,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Gerstle Cove, Salt Point State Park, CA (GCVE)</name>
+  <description><![CDATA[<div><b>Gerstle Cove, Salt Point State Park, CA</b><br/>Station ID: GCVE<br/>Affiliation: BML<br/>Coords: 38.5672, -123.3315<br/>N 38 34.0310, W 123 19.8930<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.500 MHz<br/>Time: 2025-07-15 07:15:52 UTC<br/>Age: 0:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=GCVE&net=BML&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-123.331550,38.567183,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Point Arena Field Station, CA (PAFS)</name>
+  <description><![CDATA[<div><b>Point Arena Field Station, CA</b><br/>Station ID: PAFS<br/>Affiliation: BML<br/>Coords: 38.9284, -123.7278<br/>N 38 55.7060, W 123 43.6660<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.460 MHz<br/>Time: 2025-07-15 07:15:53 UTC<br/>Age: 0:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=PAFS&net=BML&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-123.727767,38.928433,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Point Bonita, CA (PBON)</name>
+  <description><![CDATA[<div><b>Point Bonita, CA</b><br/>Station ID: PBON<br/>Affiliation: BML<br/>Coords: 37.8155, -122.5299<br/>N 37 48.9290, W 122 31.7940<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 24.550 MHz<br/>Time: 2025-07-15 07:15:53 UTC<br/>Age: 0:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=PBON&net=BML&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-122.529900,37.815483,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Point Reyes, CA (PREY)</name>
+  <description><![CDATA[<div><b>Point Reyes, CA</b><br/>Station ID: PREY<br/>Affiliation: BML<br/>Coords: 38.0472, -122.9891<br/>N 38 2.8290, W 122 59.3480<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.500 MHz<br/>Time: 2025-07-15 07:15:53 UTC<br/>Age: 0:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=PREY&net=BML&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-122.989133,38.047150,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Shelter Cove, CA (SHEL)</name>
+  <description><![CDATA[<div><b>Shelter Cove, CA</b><br/>Station ID: SHEL<br/>Affiliation: BML<br/>Coords: 40.0334, -124.0789<br/>N 40 2.0020, W 124 4.7320<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.785 MHz<br/>Time: 2025-07-15 06:15:59 UTC<br/>Age: 1:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SHEL&net=BML&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-124.078867,40.033367,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Slide Ranch, CA (SLID)</name>
+  <description><![CDATA[<div><b>Slide Ranch, CA</b><br/>Station ID: SLID<br/>Affiliation: BML<br/>Coords: 37.8724, -122.5977<br/>N 37 52.3460, W 122 35.8630<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.500 MHz<br/>Time: 2025-07-15 07:15:54 UTC<br/>Age: 0:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SLID&net=BML&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-122.597717,37.872433,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Humboldt Bay, Samoa, CA (SMOA)</name>
+  <description><![CDATA[<div><b>Humboldt Bay, Samoa, CA</b><br/>Station ID: SMOA<br/>Affiliation: BML<br/>Coords: 40.7688, -124.2188<br/>N 40 46.1270, W 124 13.1260<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SMOA&net=BML&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-124.218767,40.768783,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Trinidad, CA (TRIN)</name>
+  <description><![CDATA[<div><b>Trinidad, CA</b><br/>Station ID: TRIN<br/>Affiliation: BML<br/>Coords: 41.0736, -124.1578<br/>N 41 4.4140, W 124 9.4670<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.463 MHz<br/>Time: 2025-07-15 07:15:54 UTC<br/>Age: 0:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=TRIN&net=BML&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-124.157783,41.073567,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Angel Island, CA (ANGL)</name>
+  <description><![CDATA[<div><b>Angel Island, CA</b><br/>Station ID: ANGL<br/>Affiliation: CODAR<br/>Coords: 37.8533, -122.4192<br/>N 37 51.1990, W 122 25.1520<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 41.340 MHz<br/>Time: 2025-07-15 07:15:55 UTC<br/>Age: 0:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=ANGL&net=CODAR&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-122.419200,37.853317,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Big Creek, CA (BIGC)</name>
+  <description><![CDATA[<div><b>Big Creek, CA</b><br/>Station ID: BIGC<br/>Affiliation: CODAR<br/>Coords: 37.0885, -122.2734<br/>N 37 5.3110, W 122 16.4040<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 5.263 MHz<br/>Time: 2025-07-15 07:15:55 UTC<br/>Age: 0:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=BIGC&net=CODAR&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-122.273400,37.088517,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Crissy Field, CA (CRIS)</name>
+  <description><![CDATA[<div><b>Crissy Field, CA</b><br/>Station ID: CRIS<br/>Affiliation: CODAR<br/>Coords: 37.8064, -122.4660<br/>N 37 48.3820, W 122 27.9580<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 41.340 MHz<br/>Time: 2025-07-15 07:15:55 UTC<br/>Age: 0:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=CRIS&net=CODAR&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-122.465967,37.806367,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>The Exploratorium Museum, CA (EXPL)</name>
+  <description><![CDATA[<div><b>The Exploratorium Museum, CA</b><br/>Station ID: EXPL<br/>Affiliation: CODAR<br/>Coords: 37.8029, -122.3971<br/>N 37 48.1740, W 122 23.8260<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 43.685 MHz<br/>Time: 2025-07-15 07:15:56 UTC<br/>Age: 0:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=EXPL&net=CODAR&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-122.397100,37.802900,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Fort Funston, CA (FORT)</name>
+  <description><![CDATA[<div><b>Fort Funston, CA</b><br/>Station ID: FORT<br/>Affiliation: CODAR<br/>Coords: 37.7123, -122.5013<br/>N 37 42.7360, W 122 30.0790<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 24.550 MHz<br/>Time: 2025-07-15 07:15:56 UTC<br/>Age: 0:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=FORT&net=CODAR&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-122.501317,37.712267,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Granite Canyon, CA (GCYN)</name>
+  <description><![CDATA[<div><b>Granite Canyon, CA</b><br/>Station ID: GCYN<br/>Affiliation: CODAR<br/>Coords: 36.4400, -121.9225<br/>N 36 26.3990, W 121 55.3490<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 16.150 MHz<br/>Time: 2025-07-15 07:15:56 UTC<br/>Age: 0:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=GCYN&net=CODAR&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-121.922483,36.439983,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Monterey Bay Academy, CA (MBAC)</name>
+  <description><![CDATA[<div><b>Monterey Bay Academy, CA</b><br/>Station ID: MBAC<br/>Affiliation: CODAR<br/>Coords: 36.9030, -121.8430<br/>N 36 54.1810, W 121 50.5820<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 24.550 MHz<br/>Time: 2025-07-15 07:15:57 UTC<br/>Age: 0:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=MBAC&net=CODAR&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-121.843033,36.903017,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Moss Landing Marine Laboratories, CA (MLML)</name>
+  <description><![CDATA[<div><b>Moss Landing Marine Laboratories, CA</b><br/>Station ID: MLML<br/>Affiliation: CODAR<br/>Coords: 36.8040, -121.7880<br/>N 36 48.2370, W 121 47.2790<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 24.550 MHz<br/>Time: 2025-07-15 07:15:57 UTC<br/>Age: 0:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=MLML&net=CODAR&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-121.787983,36.803950,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Montara Sanitary District, Montara, CA (MONT)</name>
+  <description><![CDATA[<div><b>Montara Sanitary District, Montara, CA</b><br/>Station ID: MONT<br/>Affiliation: CODAR<br/>Coords: 37.5337, -122.5192<br/>N 37 32.0230, W 122 31.1530<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 16.150 MHz<br/>Time: 2025-07-15 07:15:57 UTC<br/>Age: 0:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=MONT&net=CODAR&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-122.519217,37.533717,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Pillar Point Air Force Station, CA (PILR)</name>
+  <description><![CDATA[<div><b>Pillar Point Air Force Station, CA</b><br/>Station ID: PILR<br/>Affiliation: CODAR<br/>Coords: 37.4967, -122.4994<br/>N 37 29.8050, W 122 29.9620<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=PILR&net=CODAR&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-122.499367,37.496750,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Point Pinos, Pacific Grove, CA (PPNS)</name>
+  <description><![CDATA[<div><b>Point Pinos, Pacific Grove, CA</b><br/>Station ID: PPNS<br/>Affiliation: CODAR<br/>Coords: 36.6367, -121.9350<br/>N 36 38.2030, W 121 56.0990<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.512 MHz<br/>Time: 2025-07-15 07:15:57 UTC<br/>Age: 0:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=PPNS&net=CODAR&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-121.934983,36.636717,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Point Sur Long Range, CA (PSLR)</name>
+  <description><![CDATA[<div><b>Point Sur Long Range, CA</b><br/>Station ID: PSLR<br/>Affiliation: CODAR<br/>Coords: 36.3062, -121.9013<br/>N 36 18.3740, W 121 54.0780<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.475 MHz<br/>Time: 2025-07-15 07:15:57 UTC<br/>Age: 0:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=PSLR&net=CODAR&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-121.901300,36.306233,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Romberg Tiburon Center, CA (RTC1)</name>
+  <description><![CDATA[<div><b>Romberg Tiburon Center, CA</b><br/>Station ID: RTC1<br/>Affiliation: CODAR<br/>Coords: 37.8899, -122.4459<br/>N 37 53.3940, W 122 26.7560<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 41.340 MHz<br/>Time: 2025-07-15 07:15:58 UTC<br/>Age: 0:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=RTC1&net=CODAR&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-122.445933,37.889900,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Sausalito-Marin City Sanitary District, CA (SAUS)</name>
+  <description><![CDATA[<div><b>Sausalito-Marin City Sanitary District, CA</b><br/>Station ID: SAUS<br/>Affiliation: CODAR<br/>Coords: 37.8439, -122.4772<br/>N 37 50.6370, W 122 28.6320<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 41.340 MHz<br/>Time: 2025-07-15 07:15:59 UTC<br/>Age: 0:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SAUS&net=CODAR&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-122.477200,37.843950,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Santa Cruz, CA (SCRZ)</name>
+  <description><![CDATA[<div><b>Santa Cruz, CA</b><br/>Station ID: SCRZ<br/>Affiliation: CODAR<br/>Coords: 36.9483, -122.0659<br/>N 36 56.8970, W 122 3.9560<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 16.150 MHz<br/>Time: 2025-07-15 07:15:59 UTC<br/>Age: 0:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SCRZ&net=CODAR&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-122.065933,36.948283,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Hillsboro, FL (HILL)</name>
+  <description><![CDATA[<div><b>Hillsboro, FL</b><br/>Station ID: HILL<br/>Affiliation: FAU<br/>Coords: 26.2625, -80.0803<br/>N 26 15.7470, W 80 4.8210<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.450 MHz<br/>Time: 2025-07-15 06:50:38 UTC<br/>Age: 0:46 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=HILL&net=FAU&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-80.080350,26.262450,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Hightower Beach, FL (HTR)</name>
+  <description><![CDATA[<div><b>Hightower Beach, FL</b><br/>Station ID: HTR<br/>Affiliation: FIT<br/>Coords: 28.1936, -80.5939<br/>N 28 11.6167, W 80 35.6333<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.500 MHz<br/>Time: 2025-07-15 05:50:43 UTC<br/>Age: 1:46 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=HTR&net=FIT&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-80.593889,28.193611,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Treasure Shores, FL (TRS)</name>
+  <description><![CDATA[<div><b>Treasure Shores, FL</b><br/>Station ID: TRS<br/>Affiliation: FIT<br/>Coords: 27.7986, -80.4158<br/>N 27 47.9167, W 80 24.9500<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.434 MHz<br/>Time: 2025-07-15 05:50:44 UTC<br/>Age: 1:46 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=TRS&net=FIT&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-80.415833,27.798611,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Chevron Pipeline Facility, LA (CPLF)</name>
+  <description><![CDATA[<div><b>Chevron Pipeline Facility, LA</b><br/>Station ID: CPLF<br/>Affiliation: Fugro<br/>Coords: 29.1031, -90.1900<br/>N 29 6.1840, W 90 11.3980<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=CPLF&net=Fugro&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-90.189967,29.103067,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Southwest Pass, LA (SWPP)</name>
+  <description><![CDATA[<div><b>Southwest Pass, LA</b><br/>Station ID: SWPP<br/>Affiliation: Fugro<br/>Coords: 28.9320, -89.4064<br/>N 28 55.9170, W 89 24.3850<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SWPP&net=Fugro&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-89.406417,28.931950,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Clam Harbour, Nova Scotia (CLMH)</name>
+  <description><![CDATA[<div><b>Clam Harbour, Nova Scotia</b><br/>Station ID: CLMH<br/>Affiliation: MEOPAR<br/>Coords: 44.7238, -62.8876<br/>N 44 43.4310, W 62 53.2570<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=CLMH&net=MEOPAR&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-62.887617,44.723850,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Sandy Cove, Nova Scotia (SCOV)</name>
+  <description><![CDATA[<div><b>Sandy Cove, Nova Scotia</b><br/>Station ID: SCOV<br/>Affiliation: MEOPAR<br/>Coords: 44.4684, -63.5522<br/>N 44 28.1030, W 63 33.1320<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.450 MHz<br/>Time: 2025-07-15 06:16:15 UTC<br/>Age: 1:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SCOV&net=MEOPAR&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-63.552200,44.468383,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Bridgeview Park (BRVW)</name>
+  <description><![CDATA[<div><b>Bridgeview Park</b><br/>Station ID: BRVW<br/>Affiliation: MTU<br/>Coords: 45.8470, -84.7273<br/>N 45 50.8180, W 84 43.6400<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=BRVW&net=MTU&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-84.727333,45.846967,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Fort Michilimackinac (FTMK)</name>
+  <description><![CDATA[<div><b>Fort Michilimackinac</b><br/>Station ID: FTMK<br/>Affiliation: MTU<br/>Coords: 45.7864, -84.7370<br/>N 45 47.1840, W 84 44.2210<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=FTMK&net=MTU&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-84.737017,45.786400,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Assateague, MD (ASSA)</name>
+  <description><![CDATA[<div><b>Assateague, MD</b><br/>Station ID: ASSA<br/>Affiliation: ODU<br/>Coords: 38.2050, -75.1529<br/>N 38 12.3010, W 75 9.1740<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.463 MHz<br/>Time: 2025-07-15 07:17:26 UTC<br/>Age: 0:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=ASSA&net=ODU&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-75.152900,38.205017,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Cedar Island, VA (CEDR)</name>
+  <description><![CDATA[<div><b>Cedar Island, VA</b><br/>Station ID: CEDR<br/>Affiliation: ODU<br/>Coords: 36.6917, -75.9226<br/>N 36 41.5030, W 75 55.3580<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=CEDR&net=ODU&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-75.922633,36.691717,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>First Landing State Park, VA (FLND)</name>
+  <description><![CDATA[<div><b>First Landing State Park, VA</b><br/>Station ID: FLND<br/>Affiliation: ODU<br/>Coords: 36.9194, -76.0539<br/>N 36 55.1660, W 76 3.2350<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 26.251 MHz<br/>Time: 2025-07-15 07:17:27 UTC<br/>Age: 0:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=FLND&net=ODU&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-76.053917,36.919433,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Little Island Park, VA (LISL)</name>
+  <description><![CDATA[<div><b>Little Island Park, VA</b><br/>Station ID: LISL<br/>Affiliation: ODU<br/>Coords: 36.6917, -75.9226<br/>N 36 41.5030, W 75 55.3580<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.463 MHz<br/>Time: 2025-07-15 07:17:27 UTC<br/>Age: 0:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=LISL&net=ODU&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-75.922633,36.691717,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Sunset Beach Resort, Cape Charles, VA (SUNS)</name>
+  <description><![CDATA[<div><b>Sunset Beach Resort, Cape Charles, VA</b><br/>Station ID: SUNS<br/>Affiliation: ODU<br/>Coords: 37.1379, -75.9721<br/>N 37 8.2740, W 75 58.3280<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 26.251 MHz<br/>Time: 2025-07-15 07:17:27 UTC<br/>Age: 0:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SUNS&net=ODU&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-75.972133,37.137900,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Ocean View Beach, VA (VIEW)</name>
+  <description><![CDATA[<div><b>Ocean View Beach, VA</b><br/>Station ID: VIEW<br/>Affiliation: ODU<br/>Coords: 36.9499, -76.2432<br/>N 36 56.9960, W 76 14.5910<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 26.251 MHz<br/>Time: 2025-07-15 07:17:27 UTC<br/>Age: 0:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=VIEW&net=ODU&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-76.243183,36.949933,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Bonilla Island, BC, Canada (BONI)</name>
+  <description><![CDATA[<div><b>Bonilla Island, BC, Canada</b><br/>Station ID: BONI<br/>Affiliation: ONC<br/>Coords: 53.4932, -130.6389<br/>N 53 29.5910, W 130 38.3370<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.463 MHz<br/>Time: 2025-07-15 07:16:10 UTC<br/>Age: 0:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=BONI&net=ONC&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-130.638950,53.493183,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Sandspit, BC, Canada (SAND)</name>
+  <description><![CDATA[<div><b>Sandspit, BC, Canada</b><br/>Station ID: SAND<br/>Affiliation: ONC<br/>Coords: 53.2547, -131.8108<br/>N 53 15.2840, W 131 48.6480<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.463 MHz<br/>Time: 2025-07-15 07:16:10 UTC<br/>Age: 0:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SAND&net=ONC&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-131.810800,53.254733,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Point Atkinson, West Vancouver (VATK)</name>
+  <description><![CDATA[<div><b>Point Atkinson, West Vancouver</b><br/>Station ID: VATK<br/>Affiliation: ONC<br/>Coords: 49.3301, -123.2644<br/>N 49 19.8040, W 123 15.8660<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 26.310 MHz<br/>Time: 2025-07-15 07:16:11 UTC<br/>Age: 0:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=VATK&net=ONC&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-123.264433,49.330067,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Westshore Coal Terminal, Tsawwassen (VCOL)</name>
+  <description><![CDATA[<div><b>Westshore Coal Terminal, Tsawwassen</b><br/>Station ID: VCOL<br/>Affiliation: ONC<br/>Coords: 49.0181, -123.1719<br/>N 49 1.0830, W 123 10.3130<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 24.400 MHz<br/>Time: 2025-07-15 06:16:16 UTC<br/>Age: 1:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=VCOL&net=ONC&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-123.171883,49.018050,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Digby Island, Prince Rupert (VDIG)</name>
+  <description><![CDATA[<div><b>Digby Island, Prince Rupert</b><br/>Station ID: VDIG<br/>Affiliation: ONC<br/>Coords: 54.2625, -130.4255<br/>N 54 15.7520, W 130 25.5270<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 25.401 MHz<br/>Time: 2025-07-15 01:16:25 UTC<br/>Age: 6:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=VDIG&net=ONC&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfy</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-130.425450,54.262533,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Georgina Point, Canada (VGPT)</name>
+  <description><![CDATA[<div><b>Georgina Point, Canada</b><br/>Station ID: VGPT<br/>Affiliation: ONC<br/>Coords: 48.8736, -123.2910<br/>N 48 52.4190, W 123 17.4600<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 25.400 MHz<br/>Time: 2025-07-15 07:16:11 UTC<br/>Age: 0:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=VGPT&net=ONC&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-123.291000,48.873650,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Jordan River, BC, Canada (VJOR)</name>
+  <description><![CDATA[<div><b>Jordan River, BC, Canada</b><br/>Station ID: VJOR<br/>Affiliation: ONC<br/>Coords: 48.4199, -124.0453<br/>N 48 25.1940, W 124 2.7210<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 16.150 MHz<br/>Time: 2025-07-15 07:16:11 UTC<br/>Age: 0:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=VJOR&net=ONC&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-124.045350,48.419900,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Ridley Island, Canada (VRID)</name>
+  <description><![CDATA[<div><b>Ridley Island, Canada</b><br/>Station ID: VRID<br/>Affiliation: ONC<br/>Coords: 54.2346, -130.3347<br/>N 54 14.0780, W 130 20.0810<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 24.400 MHz<br/>Time: 2025-07-15 07:16:11 UTC<br/>Age: 0:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=VRID&net=ONC&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-130.334683,54.234633,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Race Rocks, Canada (VROC)</name>
+  <description><![CDATA[<div><b>Race Rocks, Canada</b><br/>Station ID: VROC<br/>Affiliation: ONC<br/>Coords: 48.2978, -123.5325<br/>N 48 17.8700, W 123 31.9500<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 16.150 MHz<br/>Time: 2025-07-15 06:46:03 UTC<br/>Age: 0:50 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=VROC&net=ONC&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-123.532500,48.297833,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Iona Jetty, B.C., Canada (VSPT)</name>
+  <description><![CDATA[<div><b>Iona Jetty, B.C., Canada</b><br/>Station ID: VSPT<br/>Affiliation: ONC<br/>Coords: 49.2055, -123.2633<br/>N 49 12.3320, W 123 15.7980<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 26.310 MHz<br/>Time: 2025-07-15 06:46:03 UTC<br/>Age: 0:50 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=VSPT&net=ONC&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-123.263300,49.205533,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Cape Blanco, OR (CBL1)</name>
+  <description><![CDATA[<div><b>Cape Blanco, OR</b><br/>Station ID: CBL1<br/>Affiliation: OSU<br/>Coords: 42.8367, -124.5655<br/>N 42 50.2000, W 124 33.9300<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.785 MHz<br/>Time: 2025-07-15 07:16:12 UTC<br/>Age: 0:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=CBL1&net=OSU&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-124.565500,42.836667,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Loomis Lake, OR (LOO1)</name>
+  <description><![CDATA[<div><b>Loomis Lake, OR</b><br/>Station ID: LOO1<br/>Affiliation: OSU<br/>Coords: 46.4333, -124.0589<br/>N 46 25.9950, W 124 3.5310<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.785 MHz<br/>Time: 2025-07-15 06:46:03 UTC<br/>Age: 0:50 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=LOO1&net=OSU&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-124.058850,46.433250,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Manhattan Beach, OR (MAN1)</name>
+  <description><![CDATA[<div><b>Manhattan Beach, OR</b><br/>Station ID: MAN1<br/>Affiliation: OSU<br/>Coords: 45.6403, -123.9418<br/>N 45 38.4190, W 123 56.5080<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=MAN1&net=OSU&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-123.941800,45.640317,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Manhattan Beach, OR (MAN1)</name>
+  <description><![CDATA[<div><b>Manhattan Beach, OR</b><br/>Station ID: MAN1<br/>Affiliation: OSU<br/>Coords: 45.6403, -123.9418<br/>N 45 38.4190, W 123 56.5080<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=MAN1&net=OSU&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-123.941800,45.640317,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Point St. George, CA (PSG1)</name>
+  <description><![CDATA[<div><b>Point St. George, CA</b><br/>Station ID: PSG1<br/>Affiliation: OSU<br/>Coords: 41.7845, -124.2548<br/>N 41 47.0700, W 124 15.2890<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=PSG1&net=OSU&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-124.254817,41.784500,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Seaside, OR (SEA1)</name>
+  <description><![CDATA[<div><b>Seaside, OR</b><br/>Station ID: SEA1<br/>Affiliation: OSU<br/>Coords: 45.9753, -123.9448<br/>N 45 58.5180, W 123 56.6880<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SEA1&net=OSU&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-123.944800,45.975300,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Fort Stevens, OR (STV2)</name>
+  <description><![CDATA[<div><b>Fort Stevens, OR</b><br/>Station ID: STV2<br/>Affiliation: OSU<br/>Coords: 46.1764, -123.9784<br/>N 46 10.5850, W 123 58.7030<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=STV2&net=OSU&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-123.978383,46.176417,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Winchester Bay, OR (WIN1)</name>
+  <description><![CDATA[<div><b>Winchester Bay, OR</b><br/>Station ID: WIN1<br/>Affiliation: OSU<br/>Coords: 43.6658, -124.2065<br/>N 43 39.9500, W 124 12.3900<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.463 MHz<br/>Time: 2025-07-15 06:16:18 UTC<br/>Age: 1:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=WIN1&net=OSU&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-124.206500,43.665833,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Waldport, OR (WLD2)</name>
+  <description><![CDATA[<div><b>Waldport, OR</b><br/>Station ID: WLD2<br/>Affiliation: OSU<br/>Coords: 44.3838, -124.0897<br/>N 44 23.0300, W 124 5.3800<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 12.232 MHz<br/>Time: 2025-07-15 06:46:03 UTC<br/>Age: 0:50 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=WLD2&net=OSU&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-124.089667,44.383833,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Washburne, OR (WSH1)</name>
+  <description><![CDATA[<div><b>Washburne, OR</b><br/>Station ID: WSH1<br/>Affiliation: OSU<br/>Coords: 44.1615, -124.1175<br/>N 44 9.6900, W 124 7.0500<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.500 MHz<br/>Time: 2025-07-15 06:46:03 UTC<br/>Age: 0:50 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=WSH1&net=OSU&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-124.117500,44.161500,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Westport State Park , WA (WSP1)</name>
+  <description><![CDATA[<div><b>Westport State Park , WA</b><br/>Station ID: WSP1<br/>Affiliation: OSU<br/>Coords: 46.9027, -124.1316<br/>N 46 54.1640, W 124 7.8930<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.463 MHz<br/>Time: 2025-07-15 06:46:04 UTC<br/>Age: 0:50 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=WSP1&net=OSU&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-124.131550,46.902733,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Yaquina Head Long, OR (YHL1)</name>
+  <description><![CDATA[<div><b>Yaquina Head Long, OR</b><br/>Station ID: YHL1<br/>Affiliation: OSU<br/>Coords: 44.6762, -124.0772<br/>N 44 40.5700, W 124 4.6300<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.785 MHz<br/>Time: 2025-07-15 06:16:18 UTC<br/>Age: 1:20 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=YHL1&net=OSU&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-124.077167,44.676167,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Yaquina Head South, OR (YHS2)</name>
+  <description><![CDATA[<div><b>Yaquina Head South, OR</b><br/>Station ID: YHS2<br/>Affiliation: OSU<br/>Coords: 44.6742, -124.0759<br/>N 44 40.4520, W 124 4.5520<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.443 MHz<br/>Time: 2025-07-15 06:46:04 UTC<br/>Age: 0:50 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=YHS2&net=OSU&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-124.075867,44.674200,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>McCollum Park Beach City, TX (MCPK)</name>
+  <description><![CDATA[<div><b>McCollum Park Beach City, TX</b><br/>Station ID: MCPK<br/>Affiliation: RATES<br/>Coords: 29.7445, -94.8287<br/>N 29 44.6720, W 94 49.7200<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 24.550 MHz<br/>Time: 2025-07-15 05:50:44 UTC<br/>Age: 1:46 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=MCPK&net=RATES&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-94.828667,29.744533,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Moses Lake Floodgate, Texas City, TX (MOLA)</name>
+  <description><![CDATA[<div><b>Moses Lake Floodgate, Texas City, TX</b><br/>Station ID: MOLA<br/>Affiliation: RATES<br/>Coords: 29.4457, -94.9171<br/>N 29 26.7420, W 94 55.0250<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 24.550 MHz<br/>Time: 2025-07-11 05:52:27 UTC<br/>Age: 4 days 1:44 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=MOLA&net=RATES&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfr</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-94.917083,29.445700,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Placement 8, Port Arthur,TX (PLA8)</name>
+  <description><![CDATA[<div><b>Placement 8, Port Arthur,TX</b><br/>Station ID: PLA8<br/>Affiliation: RATES<br/>Coords: 29.7957, -93.9346<br/>N 29 47.7430, W 93 56.0730<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 43.675 MHz<br/>Time: 2025-07-15 05:50:44 UTC<br/>Age: 1:46 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=PLA8&net=RATES&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-93.934550,29.795717,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Pleasure Pier Blvd, Port Arthur, TX (PLPI)</name>
+  <description><![CDATA[<div><b>Pleasure Pier Blvd, Port Arthur, TX</b><br/>Station ID: PLPI<br/>Affiliation: RATES<br/>Coords: 29.8651, -93.9238<br/>N 29 51.9050, W 93 55.4270<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 43.675 MHz<br/>Time: 2025-07-15 05:50:44 UTC<br/>Age: 1:46 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=PLPI&net=RATES&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-93.923783,29.865083,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Smith Point, Anahuac,TX (SMPT)</name>
+  <description><![CDATA[<div><b>Smith Point, Anahuac,TX</b><br/>Station ID: SMPT<br/>Affiliation: RATES<br/>Coords: 29.5464, -94.7881<br/>N 29 32.7850, W 94 47.2860<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 24.550 MHz<br/>Time: 2025-07-15 05:50:44 UTC<br/>Age: 1:46 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SMPT&net=RATES&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-94.788100,29.546417,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Amagansett, New York (AMAG)</name>
+  <description><![CDATA[<div><b>Amagansett, New York</b><br/>Station ID: AMAG<br/>Affiliation: Rutgers<br/>Coords: 40.9693, -72.1237<br/>N 40 58.1600, W 72 7.4220<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.463 MHz<br/>Time: 2025-07-14 00:17:37 UTC<br/>Age: 1 days 7:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=AMAG&net=Rutgers&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfr</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-72.123700,40.969333,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Block Island (BLCK)</name>
+  <description><![CDATA[<div><b>Block Island</b><br/>Station ID: BLCK<br/>Affiliation: Rutgers<br/>Coords: 41.1528, -71.5512<br/>N 41 9.1680, W 71 33.0710<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=BLCK&net=Rutgers&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-71.551183,41.152800,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Bradley Beach, NJ (BRAD)</name>
+  <description><![CDATA[<div><b>Bradley Beach, NJ</b><br/>Station ID: BRAD<br/>Affiliation: Rutgers<br/>Coords: 40.1956, -74.0088<br/>N 40 11.7350, W 74 0.5310<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.475 MHz<br/>Time: 2025-07-15 07:17:28 UTC<br/>Age: 0:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=BRAD&net=Rutgers&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-74.008850,40.195583,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Brigantine, NJ (BRIG)</name>
+  <description><![CDATA[<div><b>Brigantine, NJ</b><br/>Station ID: BRIG<br/>Affiliation: Rutgers<br/>Coords: 39.3784, -74.3990<br/>N 39 22.7020, W 74 23.9410<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.463 MHz<br/>Time: 2025-07-15 07:17:28 UTC<br/>Age: 0:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=BRIG&net=Rutgers&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-74.399017,39.378367,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Brigantine, NJ (BRMR)</name>
+  <description><![CDATA[<div><b>Brigantine, NJ</b><br/>Station ID: BRMR<br/>Affiliation: Rutgers<br/>Coords: 39.3784, -74.3985<br/>N 39 22.7050, W 74 23.9110<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.475 MHz<br/>Time: 2025-07-15 07:17:28 UTC<br/>Age: 0:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=BRMR&net=Rutgers&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-74.398517,39.378417,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Brant Beach, NJ (BRNT)</name>
+  <description><![CDATA[<div><b>Brant Beach, NJ</b><br/>Station ID: BRNT<br/>Affiliation: Rutgers<br/>Coords: 39.6155, -74.1983<br/>N 39 36.9310, W 74 11.8980<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=BRNT&net=Rutgers&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-74.198300,39.615517,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Rutgers Cape Shore Lab, NJ (CAPE)</name>
+  <description><![CDATA[<div><b>Rutgers Cape Shore Lab, NJ</b><br/>Station ID: CAPE<br/>Affiliation: Rutgers<br/>Coords: 39.0738, -74.9124<br/>N 39 4.4260, W 74 54.7420<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 26.300 MHz<br/>Time: 2025-07-15 07:17:29 UTC<br/>Age: 0:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=CAPE&net=Rutgers&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-74.912367,39.073767,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Cape May Point, NJ (CMPT)</name>
+  <description><![CDATA[<div><b>Cape May Point, NJ</b><br/>Station ID: CMPT<br/>Affiliation: Rutgers<br/>Coords: 38.9313, -74.9613<br/>N 38 55.8760, W 74 57.6800<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.475 MHz<br/>Time: 2025-07-15 07:17:29 UTC<br/>Age: 0:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=CMPT&net=Rutgers&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-74.961333,38.931267,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Hempstead, NY (HEMP)</name>
+  <description><![CDATA[<div><b>Hempstead, NY</b><br/>Station ID: HEMP<br/>Affiliation: Rutgers<br/>Coords: 40.5868, -73.5898<br/>N 40 35.2070, W 73 35.3890<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.463 MHz<br/>Time: 2025-07-15 07:17:29 UTC<br/>Age: 0:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=HEMP&net=Rutgers&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-73.589817,40.586783,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Holgate, NJ (HLGT)</name>
+  <description><![CDATA[<div><b>Holgate, NJ</b><br/>Station ID: HLGT<br/>Affiliation: Rutgers<br/>Coords: 39.5320, -74.2621<br/>N 39 31.9220, W 74 15.7280<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.475 MHz<br/>Time: 2025-07-15 07:17:30 UTC<br/>Age: 0:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=HLGT&net=Rutgers&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-74.262133,39.532033,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Cape Henlopen, DE (HLPN)</name>
+  <description><![CDATA[<div><b>Cape Henlopen, DE</b><br/>Station ID: HLPN<br/>Affiliation: Rutgers<br/>Coords: 38.7940, -75.0892<br/>N 38 47.6420, W 75 5.3510<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 24.550 MHz<br/>Time: 2025-07-15 07:17:30 UTC<br/>Age: 0:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=HLPN&net=Rutgers&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-75.089183,38.794033,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Sandy Hook (HOOK)</name>
+  <description><![CDATA[<div><b>Sandy Hook</b><br/>Station ID: HOOK<br/>Affiliation: Rutgers<br/>Coords: 40.4301, -73.9836<br/>N 40 25.8060, W 73 59.0150<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.463 MHz<br/>Time: 2025-07-15 07:17:30 UTC<br/>Age: 0:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=HOOK&net=Rutgers&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-73.983583,40.430100,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Lewes, DE (LEWE)</name>
+  <description><![CDATA[<div><b>Lewes, DE</b><br/>Station ID: LEWE<br/>Affiliation: Rutgers<br/>Coords: 38.7818, -75.1282<br/>N 38 46.9070, W 75 7.6950<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 26.300 MHz<br/>Time: 2025-07-15 07:17:30 UTC<br/>Age: 0:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=LEWE&net=Rutgers&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-75.128250,38.781783,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Loveladies (LOVE)</name>
+  <description><![CDATA[<div><b>Loveladies</b><br/>Station ID: LOVE<br/>Affiliation: Rutgers<br/>Coords: 39.7362, -74.1171<br/>N 39 44.1740, W 74 7.0230<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.463 MHz<br/>Time: 2025-07-15 06:17:34 UTC<br/>Age: 1:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=LOVE&net=Rutgers&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-74.117050,39.736233,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Moriches, NY (MRCH)</name>
+  <description><![CDATA[<div><b>Moriches, NY</b><br/>Station ID: MRCH<br/>Affiliation: Rutgers<br/>Coords: 40.7882, -72.7452<br/>N 40 47.2910, W 72 44.7150<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.463 MHz<br/>Time: 2025-07-14 00:17:44 UTC<br/>Age: 1 days 7:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=MRCH&net=Rutgers&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfr</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-72.745250,40.788183,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Martha's Vineyard, MA (MVCO)</name>
+  <description><![CDATA[<div><b>Martha's Vineyard, MA</b><br/>Station ID: MVCO<br/>Affiliation: Rutgers<br/>Coords: 41.3500, -70.5266<br/>N 41 21.0000, W 70 31.5980<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=MVCO&net=Rutgers&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-70.526633,41.350000,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Nantucket Island, MA (NANT)</name>
+  <description><![CDATA[<div><b>Nantucket Island, MA</b><br/>Station ID: NANT<br/>Affiliation: Rutgers<br/>Coords: 41.2505, -69.9741<br/>N 41 15.0270, W 69 58.4440<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.463 MHz<br/>Time: 2025-07-15 07:17:32 UTC<br/>Age: 0:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=NANT&net=Rutgers&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-69.974067,41.250450,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Old Bridge Waterfront Park, NJ (OLDB)</name>
+  <description><![CDATA[<div><b>Old Bridge Waterfront Park, NJ</b><br/>Station ID: OLDB<br/>Affiliation: Rutgers<br/>Coords: 40.4621, -74.2535<br/>N 40 27.7270, W 74 15.2100<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 26.300 MHz<br/>Time: 2025-07-10 02:18:02 UTC<br/>Age: 5 days 5:18 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=OLDB&net=Rutgers&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfr</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-74.253500,40.462117,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Port Monmouth, NJ (PORT)</name>
+  <description><![CDATA[<div><b>Port Monmouth, NJ</b><br/>Station ID: PORT<br/>Affiliation: Rutgers<br/>Coords: 40.4413, -74.0993<br/>N 40 26.4780, W 74 5.9600<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 26.300 MHz<br/>Time: 2025-07-15 07:17:32 UTC<br/>Age: 0:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=PORT&net=Rutgers&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-74.099333,40.441300,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Strathmere, NJ (RATH)</name>
+  <description><![CDATA[<div><b>Strathmere, NJ</b><br/>Station ID: RATH<br/>Affiliation: Rutgers<br/>Coords: 39.1989, -74.6530<br/>N 39 11.9320, W 74 39.1780<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.475 MHz<br/>Time: 2025-07-15 07:17:32 UTC<br/>Age: 0:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=RATH&net=Rutgers&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-74.652967,39.198867,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Sea Bright, NJ (SEAB)</name>
+  <description><![CDATA[<div><b>Sea Bright, NJ</b><br/>Station ID: SEAB<br/>Affiliation: Rutgers<br/>Coords: 40.3668, -73.9735<br/>N 40 22.0090, W 73 58.4110<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.475 MHz<br/>Time: 2025-07-15 07:17:32 UTC<br/>Age: 0:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SEAB&net=Rutgers&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-73.973517,40.366817,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Staten Island, NY (SILD)</name>
+  <description><![CDATA[<div><b>Staten Island, NY</b><br/>Station ID: SILD<br/>Affiliation: Rutgers<br/>Coords: 40.5436, -74.1245<br/>N 40 32.6180, W 74 7.4720<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 26.300 MHz<br/>Time: 2025-07-15 07:17:33 UTC<br/>Age: 0:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SILD&net=Rutgers&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-74.124533,40.543633,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Seaside Park, NJ (SPRK)</name>
+  <description><![CDATA[<div><b>Seaside Park, NJ</b><br/>Station ID: SPRK<br/>Affiliation: Rutgers<br/>Coords: 39.9325, -74.0726<br/>N 39 55.9500, W 74 4.3530<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.475 MHz<br/>Time: 2025-07-15 07:17:33 UTC<br/>Age: 0:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SPRK&net=Rutgers&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-74.072550,39.932500,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Wildwood (WILD)</name>
+  <description><![CDATA[<div><b>Wildwood</b><br/>Station ID: WILD<br/>Affiliation: Rutgers<br/>Coords: 38.9421, -74.8861<br/>N 38 56.5290, W 74 53.1670<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.463 MHz<br/>Time: 2025-07-15 07:17:33 UTC<br/>Age: 0:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=WILD&net=Rutgers&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-74.886117,38.942150,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>North Wildwood, NJ (WOOD)</name>
+  <description><![CDATA[<div><b>North Wildwood, NJ</b><br/>Station ID: WOOD<br/>Affiliation: Rutgers<br/>Coords: 38.9909, -74.7990<br/>N 38 59.4570, W 74 47.9400<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.475 MHz<br/>Time: 2025-07-15 07:17:33 UTC<br/>Age: 0:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=WOOD&net=Rutgers&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-74.799000,38.990950,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Fort Caswell, NC (CSW)</name>
+  <description><![CDATA[<div><b>Fort Caswell, NC</b><br/>Station ID: CSW<br/>Affiliation: SC<br/>Coords: 33.8892, -78.0258<br/>N 33 53.3500, W 78 1.5500<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 5.262 MHz<br/>Time: 2025-07-15 06:50:42 UTC<br/>Age: 0:46 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=CSW&net=SC&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-78.025833,33.889167,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Georgetown, SC (GTN)</name>
+  <description><![CDATA[<div><b>Georgetown, SC</b><br/>Station ID: GTN<br/>Affiliation: SC<br/>Coords: 33.3561, -79.1528<br/>N 33 21.3667, W 79 9.1667<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 5.262 MHz<br/>Time: 2025-07-15 06:50:42 UTC<br/>Age: 0:46 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=GTN&net=SC&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-79.152778,33.356111,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Myrtle Beach State Park, SC (MBP)</name>
+  <description><![CDATA[<div><b>Myrtle Beach State Park, SC</b><br/>Station ID: MBP<br/>Affiliation: SC<br/>Coords: 33.6486, -78.9275<br/>N 33 38.9167, W 78 55.6500<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.500 MHz<br/>Time: 2025-07-15 07:20:54 UTC<br/>Age: 0:15 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=MBP&net=SC&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-78.927500,33.648611,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>San Diego, Border Park (SDBP)</name>
+  <description><![CDATA[<div><b>San Diego, Border Park</b><br/>Station ID: SDBP<br/>Affiliation: SIO<br/>Coords: 32.5359, -117.1223<br/>N 32 32.1550, W 117 7.3360<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 24.600 MHz<br/>Time: 2025-07-15 07:15:11 UTC<br/>Age: 0:21 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SDBP&net=SIO&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-117.122267,32.535917,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Camp Pendleton, CA (SDCP)</name>
+  <description><![CDATA[<div><b>Camp Pendleton, CA</b><br/>Station ID: SDCP<br/>Affiliation: SIO<br/>Coords: 33.2577, -117.4368<br/>N 33 15.4640, W 117 26.2080<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 25.400 MHz<br/>Time: 2025-07-15 07:15:11 UTC<br/>Age: 0:21 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SDCP&net=SIO&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-117.436800,33.257733,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Dana Point, CA (SDDP)</name>
+  <description><![CDATA[<div><b>Dana Point, CA</b><br/>Station ID: SDDP<br/>Affiliation: SIO<br/>Coords: 33.4607, -117.7067<br/>N 33 27.6410, W 117 42.4010<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 25.600 MHz<br/>Time: 2025-07-15 07:15:11 UTC<br/>Age: 0:21 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SDDP&net=SIO&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-117.706683,33.460683,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>San Diego, Point Loma (SDPL)</name>
+  <description><![CDATA[<div><b>San Diego, Point Loma</b><br/>Station ID: SDPL<br/>Affiliation: SIO<br/>Coords: 32.6658, -117.2396<br/>N 32 39.9500, W 117 14.3750<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 24.600 MHz<br/>Time: 2025-07-15 07:15:12 UTC<br/>Age: 0:21 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SDPL&net=SIO&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-117.239583,32.665833,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>San Clemente Is, CA (SDSC)</name>
+  <description><![CDATA[<div><b>San Clemente Is, CA</b><br/>Station ID: SDSC<br/>Affiliation: SIO<br/>Coords: 32.9177, -118.4869<br/>N 32 55.0650, W 118 29.2140<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 5.235 MHz<br/>Time: 2025-07-15 06:15:14 UTC<br/>Age: 1:21 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SDSC&net=SIO&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-118.486900,32.917750,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>San Elijo State Beach, CA (SDSE)</name>
+  <description><![CDATA[<div><b>San Elijo State Beach, CA</b><br/>Station ID: SDSE<br/>Affiliation: SIO<br/>Coords: 33.0245, -117.2861<br/>N 33 1.4690, W 117 17.1680<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 25.400 MHz<br/>Time: 2025-07-15 07:15:13 UTC<br/>Age: 0:21 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SDSE&net=SIO&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-117.286133,33.024483,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>San Diego, Scripps Long-range (SDSL)</name>
+  <description><![CDATA[<div><b>San Diego, Scripps Long-range</b><br/>Station ID: SDSL<br/>Affiliation: SIO<br/>Coords: 32.8694, -117.2532<br/>N 32 52.1640, W 117 15.1920<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.647 MHz<br/>Time: 2025-07-07 23:15:15 UTC<br/>Age: 7 days 8:21 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SDSL&net=SIO&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfr</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-117.253200,32.869400,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>San Clemente Island North, CA (SDSN)</name>
+  <description><![CDATA[<div><b>San Clemente Island North, CA</b><br/>Station ID: SDSN<br/>Affiliation: SIO<br/>Coords: 33.0298, -118.5971<br/>N 33 1.7890, W 118 35.8270<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.480 MHz<br/>Time: 2025-07-15 07:15:13 UTC<br/>Age: 0:21 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SDSN&net=SIO&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-118.597117,33.029817,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Upper Trestles, San Diego, CA (SDUT)</name>
+  <description><![CDATA[<div><b>Upper Trestles, San Diego, CA</b><br/>Station ID: SDUT<br/>Affiliation: SIO<br/>Coords: 33.3882, -117.5955<br/>N 33 23.2950, W 117 35.7280<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SDUT&net=SIO&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-117.595467,33.388250,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Point Loma Waste Water Treatment Plant, CA (SDWW)</name>
+  <description><![CDATA[<div><b>Point Loma Waste Water Treatment Plant, CA</b><br/>Station ID: SDWW<br/>Affiliation: SIO<br/>Coords: 32.6799, -117.2474<br/>N 32 40.7950, W 117 14.8450<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 26.310 MHz<br/>Time: 2025-07-15 07:15:14 UTC<br/>Age: 0:21 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SDWW&net=SIO&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-117.247417,32.679917,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Canaveral National Seashore (CNS)</name>
+  <description><![CDATA[<div><b>Canaveral National Seashore</b><br/>Station ID: CNS<br/>Affiliation: SKIO<br/>Coords: 28.9283, -80.8233<br/>N 28 55.7000, W 80 49.4000<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=CNS&net=SKIO&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-80.823333,28.928333,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Jekyll Island, GA, USA (JEK)</name>
+  <description><![CDATA[<div><b>Jekyll Island, GA, USA</b><br/>Station ID: JEK<br/>Affiliation: SKIO<br/>Coords: 31.0978, -81.4028<br/>N 31 5.8667, W 81 24.1667<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.450 MHz<br/>Time: 2025-07-15 06:20:53 UTC<br/>Age: 1:15 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=JEK&net=SKIO&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-81.402778,31.097778,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Kennedy Space Center, FL (KSC)</name>
+  <description><![CDATA[<div><b>Kennedy Space Center, FL</b><br/>Station ID: KSC<br/>Affiliation: SKIO<br/>Coords: 28.5936, -80.5811<br/>N 28 35.6167, W 80 34.8667<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=KSC&net=SKIO&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-80.581111,28.593611,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Pt. Arguello, CA (AGL1)</name>
+  <description><![CDATA[<div><b>Pt. Arguello, CA</b><br/>Station ID: AGL1<br/>Affiliation: SLO<br/>Coords: 34.5769, -120.6491<br/>N 34 34.6130, W 120 38.9450<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.450 MHz<br/>Time: 2025-07-03 20:21:08 UTC<br/>Age: 11 days 11:15 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=AGL1&net=SLO&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfr</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-120.649083,34.576883,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Pt. Arguello, CA (ARG1)</name>
+  <description><![CDATA[<div><b>Pt. Arguello, CA</b><br/>Station ID: ARG1<br/>Affiliation: SLO<br/>Coords: 34.5769, -120.6505<br/>N 34 34.6170, W 120 39.0300<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.500 MHz<br/>Time: 2025-07-03 20:21:16 UTC<br/>Age: 11 days 11:15 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=ARG1&net=SLO&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfr</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-120.650500,34.576950,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Diablo Canyon Long Range, CA (DCLR)</name>
+  <description><![CDATA[<div><b>Diablo Canyon Long Range, CA</b><br/>Station ID: DCLR<br/>Affiliation: SLO<br/>Coords: 35.2175, -120.8626<br/>N 35 13.0490, W 120 51.7580<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.450 MHz<br/>Time: 2025-07-03 20:21:21 UTC<br/>Age: 11 days 11:15 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=DCLR&net=SLO&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfr</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-120.862633,35.217483,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Diablo Canyon Standard Range, CA (DCSR)</name>
+  <description><![CDATA[<div><b>Diablo Canyon Standard Range, CA</b><br/>Station ID: DCSR<br/>Affiliation: SLO<br/>Coords: 35.2024, -120.8461<br/>N 35 12.1470, W 120 50.7650<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.500 MHz<br/>Time: 2025-07-03 20:21:28 UTC<br/>Age: 11 days 11:15 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=DCSR&net=SLO&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfr</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-120.846083,35.202450,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Point Estero, CA (ESTR)</name>
+  <description><![CDATA[<div><b>Point Estero, CA</b><br/>Station ID: ESTR<br/>Affiliation: SLO<br/>Coords: 35.4597, -120.9776<br/>N 35 27.5850, W 120 58.6580<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.500 MHz<br/>Time: 2025-07-03 20:21:30 UTC<br/>Age: 11 days 11:15 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=ESTR&net=SLO&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfr</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-120.977633,35.459750,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>FallBack22, Pt. Sal, CA (FBK1)</name>
+  <description><![CDATA[<div><b>FallBack22, Pt. Sal, CA</b><br/>Station ID: FBK1<br/>Affiliation: SLO<br/>Coords: 34.8698, -120.6212<br/>N 34 52.1850, W 120 37.2720<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.500 MHz<br/>Time: 2025-07-03 20:21:36 UTC<br/>Age: 11 days 11:15 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=FBK1&net=SLO&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfr</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-120.621200,34.869750,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Point San Luis, CA (LUIS)</name>
+  <description><![CDATA[<div><b>Point San Luis, CA</b><br/>Station ID: LUIS<br/>Affiliation: SLO<br/>Coords: 35.1608, -120.7584<br/>N 35 9.6490, W 120 45.5070<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.500 MHz<br/>Time: 2025-07-03 20:21:41 UTC<br/>Age: 11 days 11:15 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=LUIS&net=SLO&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfr</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-120.758450,35.160817,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Point Conception, CA (PTC1)</name>
+  <description><![CDATA[<div><b>Point Conception, CA</b><br/>Station ID: PTC1<br/>Affiliation: SLO<br/>Coords: 34.4487, -120.4716<br/>N 34 26.9200, W 120 28.2990<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.500 MHz<br/>Time: 2025-07-03 20:21:50 UTC<br/>Age: 11 days 11:15 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=PTC1&net=SLO&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfr</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-120.471650,34.448667,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Ragged Point, CA (RAGG)</name>
+  <description><![CDATA[<div><b>Ragged Point, CA</b><br/>Station ID: RAGG<br/>Affiliation: SLO<br/>Coords: 35.7874, -121.3363<br/>N 35 47.2420, W 121 20.1750<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.450 MHz<br/>Time: 2025-07-03 20:21:54 UTC<br/>Age: 11 days 11:14 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=RAGG&net=SLO&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfr</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-121.336250,35.787367,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Aransas National Wildlife Refuge (ANWR)</name>
+  <description><![CDATA[<div><b>Aransas National Wildlife Refuge</b><br/>Station ID: ANWR<br/>Affiliation: TexAM<br/>Coords: 28.1114, -96.7935<br/>N 28 6.6830, W 96 47.6100<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=ANWR&net=TexAM&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-96.793500,28.111383,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Matagorda Bay Nature Park (MBNP)</name>
+  <description><![CDATA[<div><b>Matagorda Bay Nature Park</b><br/>Station ID: MBNP<br/>Affiliation: TexAM<br/>Coords: 28.6044, -95.9613<br/>N 28 36.2620, W 95 57.6750<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=MBNP&net=TexAM&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-95.961250,28.604367,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Padre Island, TX (PINS)</name>
+  <description><![CDATA[<div><b>Padre Island, TX</b><br/>Station ID: PINS<br/>Affiliation: TexAM<br/>Coords: 27.4226, -97.2995<br/>N 27 25.3560, W 97 17.9710<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=PINS&net=TexAM&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-97.299517,27.422600,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Port Mansfield GERG Codar (PMGC)</name>
+  <description><![CDATA[<div><b>Port Mansfield GERG Codar</b><br/>Station ID: PMGC<br/>Affiliation: TexAM<br/>Coords: 26.6603, -97.4550<br/>N 26 39.6170, W 97 27.2990<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=PMGC&net=TexAM&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-97.454983,26.660283,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Surfside, TX (SSDE)</name>
+  <description><![CDATA[<div><b>Surfside, TX</b><br/>Station ID: SSDE<br/>Affiliation: TexAM<br/>Coords: 29.0077, -95.2155<br/>N 29 0.4630, W 95 12.9300<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SSDE&net=TexAM&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-95.215500,29.007717,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Point Barrow, AK (PBRW)</name>
+  <description><![CDATA[<div><b>Point Barrow, AK</b><br/>Station ID: PBRW<br/>Affiliation: UAF<br/>Coords: 71.3789, -156.4787<br/>N 71 22.7340, W 156 28.7240<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=PBRW&net=UAF&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-156.478733,71.378900,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Susan Dionne Pad, Kenai, AK (SDPD)</name>
+  <description><![CDATA[<div><b>Susan Dionne Pad, Kenai, AK</b><br/>Station ID: SDPD<br/>Affiliation: UAF<br/>Coords: 60.1125, -151.5764<br/>N 60 6.7500, W 151 34.5830<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.500 MHz<br/>Time: 2025-07-09 16:45:15 UTC<br/>Age: 5 days 14:51 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SDPD&net=UAF&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfr</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-151.576383,60.112500,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Shishmaref, AK (SHSH)</name>
+  <description><![CDATA[<div><b>Shishmaref, AK</b><br/>Station ID: SHSH<br/>Affiliation: UAF<br/>Coords: 66.2543, -166.0785<br/>N 66 15.2570, W 166 4.7090<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SHSH&net=UAF&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-166.078483,66.254283,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Wainwright, AK (WAIN)</name>
+  <description><![CDATA[<div><b>Wainwright, AK</b><br/>Station ID: WAIN<br/>Affiliation: UAF<br/>Coords: 70.6434, -160.0271<br/>N 70 38.6020, W 160 1.6230<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.463 MHz<br/>Time: 2025-07-15 07:15:14 UTC<br/>Age: 0:21 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=WAIN&net=UAF&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-160.027050,70.643367,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Great Captain Island, CT (GCAP)</name>
+  <description><![CDATA[<div><b>Great Captain Island, CT</b><br/>Station ID: GCAP<br/>Affiliation: UConn<br/>Coords: 40.9826, -73.6238<br/>N 40 58.9530, W 73 37.4270<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 24.550 MHz<br/>Time: 2025-07-15 07:17:33 UTC<br/>Age: 0:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=GCAP&net=UConn&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-73.623783,40.982550,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Stehli Beach, NY (STLI)</name>
+  <description><![CDATA[<div><b>Stehli Beach, NY</b><br/>Station ID: STLI<br/>Affiliation: UConn<br/>Coords: 40.9087, -73.5873<br/>N 40 54.5250, W 73 35.2370<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 26.310 MHz<br/>Time: 2025-07-04 06:18:10 UTC<br/>Age: 11 days 1:18 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=STLI&net=UConn&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfr</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-73.587283,40.908750,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Anacapa Island (ACI1)</name>
+  <description><![CDATA[<div><b>Anacapa Island</b><br/>Station ID: ACI1<br/>Affiliation: UCSB<br/>Coords: 34.0158, -119.3593<br/>N 34 0.9480, W 119 21.5600<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.508 MHz<br/>Time: 2025-07-03 20:21:54 UTC<br/>Age: 11 days 11:14 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=ACI1&net=UCSB&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfr</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-119.359333,34.015800,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Coal Oil Pt. (COP1)</name>
+  <description><![CDATA[<div><b>Coal Oil Pt.</b><br/>Station ID: COP1<br/>Affiliation: UCSB<br/>Coords: 34.4075, -119.8788<br/>N 34 24.4480, W 119 52.7270<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.500 MHz<br/>Time: 2025-07-03 20:22:02 UTC<br/>Age: 11 days 11:14 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=COP1&net=UCSB&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfr</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-119.878783,34.407467,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Mandalay Generating Station (MGS1)</name>
+  <description><![CDATA[<div><b>Mandalay Generating Station</b><br/>Station ID: MGS1<br/>Affiliation: UCSB<br/>Coords: 34.2049, -119.2516<br/>N 34 12.2950, W 119 15.0980<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.500 MHz<br/>Time: 2025-07-03 20:22:04 UTC<br/>Age: 11 days 11:14 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=MGS1&net=UCSB&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfr</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-119.251633,34.204917,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Nicholas Canyon, CA (NIC1)</name>
+  <description><![CDATA[<div><b>Nicholas Canyon, CA</b><br/>Station ID: NIC1<br/>Affiliation: UCSB<br/>Coords: 34.0423, -118.9154<br/>N 34 2.5400, W 118 54.9220<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.500 MHz<br/>Time: 2025-07-03 20:22:12 UTC<br/>Age: 11 days 11:14 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=NIC1&net=UCSB&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfr</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-118.915367,34.042333,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Point Mugu, CA (PTM1)</name>
+  <description><![CDATA[<div><b>Point Mugu, CA</b><br/>Station ID: PTM1<br/>Affiliation: UCSB<br/>Coords: 34.0960, -119.1070<br/>N 34 5.7620, W 119 6.4190<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.500 MHz<br/>Time: 2025-07-03 20:22:18 UTC<br/>Age: 11 days 11:14 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=PTM1&net=UCSB&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfr</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-119.106983,34.096033,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Refugio State Beach (RFG1)</name>
+  <description><![CDATA[<div><b>Refugio State Beach</b><br/>Station ID: RFG1<br/>Affiliation: UCSB<br/>Coords: 34.4611, -120.0770<br/>N 34 27.6650, W 120 4.6190<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.490 MHz<br/>Time: 2025-07-03 20:22:26 UTC<br/>Age: 11 days 11:14 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=RFG1&net=UCSB&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfr</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-120.076983,34.461083,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Santa Cruz Island, CA (SCI1)</name>
+  <description><![CDATA[<div><b>Santa Cruz Island, CA</b><br/>Station ID: SCI1<br/>Affiliation: UCSB<br/>Coords: 33.9946, -119.6320<br/>N 33 59.6780, W 119 37.9220<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.508 MHz<br/>Time: 2025-07-03 20:22:32 UTC<br/>Age: 11 days 11:14 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SCI1&net=UCSB&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfr</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-119.632033,33.994633,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>San Nicolas Island, CA (SNI1)</name>
+  <description><![CDATA[<div><b>San Nicolas Island, CA</b><br/>Station ID: SNI1<br/>Affiliation: UCSB<br/>Coords: 33.2802, -119.5225<br/>N 33 16.8130, W 119 31.3500<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SNI1&net=UCSB&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-119.522500,33.280217,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Summerland Sanitary District (SSD1)</name>
+  <description><![CDATA[<div><b>Summerland Sanitary District</b><br/>Station ID: SSD1<br/>Affiliation: UCSB<br/>Coords: 34.4190, -119.5961<br/>N 34 25.1420, W 119 35.7680<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.500 MHz<br/>Time: 2025-07-03 20:22:35 UTC<br/>Age: 11 days 11:14 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SSD1&net=UCSB&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfr</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-119.596133,34.419033,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Kaka'ako, HI (KAK)</name>
+  <description><![CDATA[<div><b>Kaka'ako, HI</b><br/>Station ID: KAK<br/>Affiliation: UH<br/>Coords: 21.2918, -157.8631<br/>N 21 17.5080, W 157 51.7860<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 26.310 MHz<br/>Time: 2025-07-15 07:15:14 UTC<br/>Age: 0:21 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=KAK&net=UH&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-157.863100,21.291800,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Kalaeloa, HI (KAL)</name>
+  <description><![CDATA[<div><b>Kalaeloa, HI</b><br/>Station ID: KAL<br/>Affiliation: UH<br/>Coords: 21.2974, -158.0836<br/>N 21 17.8440, W 158 5.0160<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=KAL&net=UH&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-158.083600,21.297400,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Kapolei, HI (KAP)</name>
+  <description><![CDATA[<div><b>Kapolei, HI</b><br/>Station ID: KAP<br/>Affiliation: UH<br/>Coords: 21.3114, -158.1170<br/>N 21 18.6810, W 158 7.0200<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.500 MHz<br/>Time: 2025-07-15 07:15:15 UTC<br/>Age: 0:21 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=KAP&net=UH&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-158.117000,21.311350,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Keaukaha, HI (KKH)</name>
+  <description><![CDATA[<div><b>Keaukaha, HI</b><br/>Station ID: KKH<br/>Affiliation: UH<br/>Coords: 19.7320, -155.0485<br/>N 19 43.9200, W 155 2.9100<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 16.150 MHz<br/>Time: 2025-07-14 20:15:16 UTC<br/>Age: 11:21 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=KKH&net=UH&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfr</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-155.048500,19.732000,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Kaena, HI (KNA)</name>
+  <description><![CDATA[<div><b>Kaena, HI</b><br/>Station ID: KNA<br/>Affiliation: UH<br/>Coords: 21.5658, -158.2564<br/>N 21 33.9480, W 158 15.3840<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 16.150 MHz<br/>Time: 2025-07-15 07:15:15 UTC<br/>Age: 0:21 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=KNA&net=UH&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-158.256400,21.565800,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Koko Head, HI (KOK)</name>
+  <description><![CDATA[<div><b>Koko Head, HI</b><br/>Station ID: KOK<br/>Affiliation: UH<br/>Coords: 21.2610, -157.7030<br/>N 21 15.6600, W 157 42.1800<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 16.150 MHz<br/>Time: 2025-07-15 07:15:16 UTC<br/>Age: 0:21 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=KOK&net=UH&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-157.703000,21.261000,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Pepe'ekeo, HI (PPK)</name>
+  <description><![CDATA[<div><b>Pepe'ekeo, HI</b><br/>Station ID: PPK<br/>Affiliation: UH<br/>Coords: 19.8473, -155.0827<br/>N 19 50.8380, W 155 4.9620<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 26.310 MHz<br/>Time: 2025-07-15 07:15:16 UTC<br/>Age: 0:21 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=PPK&net=UH&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-155.082700,19.847300,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Nauset, MA (NAUS)</name>
+  <description><![CDATA[<div><b>Nauset, MA</b><br/>Station ID: NAUS<br/>Affiliation: UMassDart<br/>Coords: 41.8442, -69.9472<br/>N 41 50.6530, W 69 56.8340<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=NAUS&net=UMassDart&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-69.947233,41.844217,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Crandon, FL (CDN)</name>
+  <description><![CDATA[<div><b>Crandon, FL</b><br/>Station ID: CDN<br/>Affiliation: UMiami<br/>Coords: 25.7135, -80.1510<br/>N 25 42.8100, W 80 9.0600<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 16.050 MHz<br/>Time: 2025-07-15 06:20:53 UTC<br/>Age: 1:15 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=CDN&net=UMiami&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-80.151000,25.713500,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>North Key Largo, FL (NKL)</name>
+  <description><![CDATA[<div><b>North Key Largo, FL</b><br/>Station ID: NKL<br/>Affiliation: UMiami<br/>Coords: 25.2410, -80.3080<br/>N 25 14.4600, W 80 18.4800<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 12.700 MHz<br/>Time: 2025-07-15 06:20:54 UTC<br/>Age: 1:15 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=NKL&net=UMiami&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-80.308000,25.241000,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Dania Beach, FL (STF)</name>
+  <description><![CDATA[<div><b>Dania Beach, FL</b><br/>Station ID: STF<br/>Affiliation: UMiami<br/>Coords: 26.0830, -80.1167<br/>N 26 4.9800, W 80 7.0020<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 12.700 MHz<br/>Time: 2025-07-15 06:20:54 UTC<br/>Age: 1:15 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=STF&net=UMiami&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-80.116700,26.083000,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Virginia Key, FL (VIR)</name>
+  <description><![CDATA[<div><b>Virginia Key, FL</b><br/>Station ID: VIR<br/>Affiliation: UMiami<br/>Coords: 25.7412, -80.1463<br/>N 25 44.4720, W 80 8.7780<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 12.700 MHz<br/>Time: 2025-07-15 06:20:54 UTC<br/>Age: 1:15 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=VIR&net=UMiami&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-80.146300,25.741200,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Core Banks, NC (CORE)</name>
+  <description><![CDATA[<div><b>Core Banks, NC</b><br/>Station ID: CORE<br/>Affiliation: UNC<br/>Coords: 34.7601, -76.4114<br/>N 34 45.6050, W 76 24.6820<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.463 MHz<br/>Time: 2025-07-15 00:50:59 UTC<br/>Age: 6:45 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=CORE&net=UNC&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfy</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-76.411367,34.760083,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Cape Hatteras, NC (HATY)</name>
+  <description><![CDATA[<div><b>Cape Hatteras, NC</b><br/>Station ID: HATY<br/>Affiliation: UNC<br/>Coords: 35.2563, -75.5207<br/>N 35 15.3750, W 75 31.2430<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.488 MHz<br/>Time: 2025-07-15 06:50:45 UTC<br/>Age: 0:46 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=HATY&net=UNC&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-75.520717,35.256250,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Jennettes Pier (JENN)</name>
+  <description><![CDATA[<div><b>Jennettes Pier</b><br/>Station ID: JENN<br/>Affiliation: UNC<br/>Coords: 35.9096, -75.5960<br/>N 35 54.5730, W 75 35.7620<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.488 MHz<br/>Time: 2025-07-15 05:50:48 UTC<br/>Age: 1:46 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=JENN&net=UNC&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-75.596033,35.909550,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Ocracoke Island, NC (OCRA)</name>
+  <description><![CDATA[<div><b>Ocracoke Island, NC</b><br/>Station ID: OCRA<br/>Affiliation: UNC<br/>Coords: 35.1030, -75.9604<br/>N 35 6.1800, W 75 57.6260<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.463 MHz<br/>Time: 2025-07-15 06:50:45 UTC<br/>Age: 0:46 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=OCRA&net=UNC&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-75.960433,35.103000,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Cabo Rojo, Puerto Rico (CDDO)</name>
+  <description><![CDATA[<div><b>Cabo Rojo, Puerto Rico</b><br/>Station ID: CDDO<br/>Affiliation: UPR<br/>Coords: 18.1010, -67.1897<br/>N 18 6.0600, W 67 11.3810<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.500 MHz<br/>Time: 2025-07-03 01:23:47 UTC<br/>Age: 12 days 6:13 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=CDDO&net=UPR&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfr</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-67.189683,18.101000,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Cabo Rojo Lighthouse at Cabo Rojo, Puerto Rico (FARO)</name>
+  <description><![CDATA[<div><b>Cabo Rojo Lighthouse at Cabo Rojo, Puerto Rico</b><br/>Station ID: FARO<br/>Affiliation: UPR<br/>Coords: 17.9334, -67.1920<br/>N 17 56.0020, W 67 11.5200<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.463 MHz<br/>Time: 2025-07-15 06:20:56 UTC<br/>Age: 1:15 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=FARO&net=UPR&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-67.192000,17.933367,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Reserva Natural Cabezas de San Juan, Fajardo (FRDO)</name>
+  <description><![CDATA[<div><b>Reserva Natural Cabezas de San Juan, Fajardo</b><br/>Station ID: FRDO<br/>Affiliation: UPR<br/>Coords: 18.3865, -65.6193<br/>N 18 23.1880, W 65 37.1580<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=FRDO&net=UPR&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-65.619300,18.386467,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Anasco, Puerto Rico (FURA)</name>
+  <description><![CDATA[<div><b>Anasco, Puerto Rico</b><br/>Station ID: FURA<br/>Affiliation: UPR<br/>Coords: 18.2921, -67.1983<br/>N 18 17.5260, W 67 11.8960<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.500 MHz<br/>Time: 2025-07-15 06:20:57 UTC<br/>Age: 1:15 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=FURA&net=UPR&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-67.198267,18.292100,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Punta Tuna Lighthouse, Maunabo, Puerto Rico (MABO)</name>
+  <description><![CDATA[<div><b>Punta Tuna Lighthouse, Maunabo, Puerto Rico</b><br/>Station ID: MABO<br/>Affiliation: UPR<br/>Coords: 17.9881, -65.8850<br/>N 17 59.2880, W 65 53.1000<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=MABO&net=UPR&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-65.885000,17.988133,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Ponce Yacht and Fishing Club at Ponce, Puerto Rico (PYFC)</name>
+  <description><![CDATA[<div><b>Ponce Yacht and Fishing Club at Ponce, Puerto Rico</b><br/>Station ID: PYFC<br/>Affiliation: UPR<br/>Coords: 17.9628, -66.6183<br/>N 17 57.7660, W 66 37.1000<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.463 MHz<br/>Time: 2025-07-15 06:20:57 UTC<br/>Age: 1:15 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=PYFC&net=UPR&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-66.618333,17.962767,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Club de Pesca Rec Isla de Cabras, San Juan Bay (SBAY)</name>
+  <description><![CDATA[<div><b>Club de Pesca Rec Isla de Cabras, San Juan Bay</b><br/>Station ID: SBAY<br/>Affiliation: UPR<br/>Coords: 18.4751, -66.1398<br/>N 18 28.5040, W 66 8.3870<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SBAY&net=UPR&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-66.139783,18.475067,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>St Thomas, USVI (THOM)</name>
+  <description><![CDATA[<div><b>St Thomas, USVI</b><br/>Station ID: THOM<br/>Affiliation: UPR<br/>Coords: 18.3076, -64.9571<br/>N 18 18.4590, W 64 57.4240<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=THOM&net=UPR&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-64.957067,18.307650,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Block Island, RI (BISL)</name>
+  <description><![CDATA[<div><b>Block Island, RI</b><br/>Station ID: BISL<br/>Affiliation: URI<br/>Coords: 41.1526, -71.5518<br/>N 41 9.1550, W 71 33.1100<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 24.550 MHz<br/>Time: 2025-07-15 07:17:34 UTC<br/>Age: 0:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=BISL&net=URI&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-71.551833,41.152583,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Misquamicut, RI (MISQ)</name>
+  <description><![CDATA[<div><b>Misquamicut, RI</b><br/>Station ID: MISQ<br/>Affiliation: URI<br/>Coords: 41.3229, -71.8042<br/>N 41 19.3760, W 71 48.2530<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 24.550 MHz<br/>Time: 2025-07-15 07:17:34 UTC<br/>Age: 0:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=MISQ&net=URI&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-71.804217,41.322933,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Montauk, NY (MNTK)</name>
+  <description><![CDATA[<div><b>Montauk, NY</b><br/>Station ID: MNTK<br/>Affiliation: URI<br/>Coords: 41.0710, -71.8567<br/>N 41 4.2580, W 71 51.4040<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=MNTK&net=URI&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-71.856733,41.070967,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Catalina Island, CA (SCCI)</name>
+  <description><![CDATA[<div><b>Catalina Island, CA</b><br/>Station ID: SCCI<br/>Affiliation: USC<br/>Coords: 33.4469, -118.4782<br/>N 33 26.8120, W 118 28.6930<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.500 MHz<br/>Time: 2025-07-15 07:15:17 UTC<br/>Age: 0:21 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SCCI&net=USC&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-118.478217,33.446867,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Dan Blocker, CA (SCDB)</name>
+  <description><![CDATA[<div><b>Dan Blocker, CA</b><br/>Station ID: SCDB<br/>Affiliation: USC<br/>Coords: 34.0333, -118.7337<br/>N 34 1.9950, W 118 44.0210<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SCDB&net=USC&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-118.733683,34.033250,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Dockweiler Headquarters, CA (SCDH)</name>
+  <description><![CDATA[<div><b>Dockweiler Headquarters, CA</b><br/>Station ID: SCDH<br/>Affiliation: USC<br/>Coords: 33.9432, -118.4424<br/>N 33 56.5940, W 118 26.5430<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.500 MHz<br/>Time: 2025-07-10 18:15:21 UTC<br/>Age: 4 days 13:21 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SCDH&net=USC&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfr</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-118.442383,33.943233,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Newport Beach, CA (SCNB)</name>
+  <description><![CDATA[<div><b>Newport Beach, CA</b><br/>Station ID: SCNB<br/>Affiliation: USC<br/>Coords: 33.6060, -117.9314<br/>N 33 36.3600, W 117 55.8850<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 24.550 MHz<br/>Time: 2025-07-15 07:15:18 UTC<br/>Age: 0:21 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SCNB&net=USC&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-117.931417,33.606000,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Point Fermin, CA (SCPF)</name>
+  <description><![CDATA[<div><b>Point Fermin, CA</b><br/>Station ID: SCPF<br/>Affiliation: USC<br/>Coords: 33.7049, -118.2940<br/>N 33 42.2920, W 118 17.6390<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 24.550 MHz<br/>Time: 2025-07-15 07:15:18 UTC<br/>Age: 0:21 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SCPF&net=USC&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-118.293983,33.704867,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Torrance Beach, CA (SCTB)</name>
+  <description><![CDATA[<div><b>Torrance Beach, CA</b><br/>Station ID: SCTB<br/>Affiliation: USC<br/>Coords: 33.8117, -118.3914<br/>N 33 48.7010, W 118 23.4860<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 26.300 MHz<br/>Time: 2025-07-15 07:15:18 UTC<br/>Age: 0:21 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SCTB&net=USC&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-118.391433,33.811683,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Ft. De Soto, FL (FDS)</name>
+  <description><![CDATA[<div><b>Ft. De Soto, FL</b><br/>Station ID: FDS<br/>Affiliation: USF<br/>Coords: 27.6358, -82.7381<br/>N 27 38.1500, W 82 44.2834<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=FDS&net=USF&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-82.738056,27.635833,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Ft Jefferson, FL (JEFF)</name>
+  <description><![CDATA[<div><b>Ft Jefferson, FL</b><br/>Station ID: JEFF<br/>Affiliation: USF<br/>Coords: 24.6266, -82.8733<br/>N 24 37.5980, W 82 52.3960<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=JEFF&net=USF&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-82.873267,24.626633,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Marathon, FL (MARA)</name>
+  <description><![CDATA[<div><b>Marathon, FL</b><br/>Station ID: MARA<br/>Affiliation: USF<br/>Coords: 24.7401, -80.9833<br/>N 24 44.4080, W 80 58.9980<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 5.263 MHz<br/>Time: 2025-07-15 06:50:47 UTC<br/>Age: 0:46 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=MARA&net=USF&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-80.983300,24.740133,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Naples, FL (NAPL)</name>
+  <description><![CDATA[<div><b>Naples, FL</b><br/>Station ID: NAPL<br/>Affiliation: USF<br/>Coords: 26.1631, -81.8107<br/>N 26 9.7870, W 81 48.6400<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 5.263 MHz<br/>Time: 2025-07-15 06:20:59 UTC<br/>Age: 1:15 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=NAPL&net=USF&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-81.810667,26.163117,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Reddington, FL (RDSR)</name>
+  <description><![CDATA[<div><b>Reddington, FL</b><br/>Station ID: RDSR<br/>Affiliation: USF<br/>Coords: 27.8328, -82.8346<br/>N 27 49.9680, W 82 50.0780<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 5.263 MHz<br/>Time: 2025-07-15 06:21:00 UTC<br/>Age: 1:15 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=RDSR&net=USF&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-82.834633,27.832800,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Venice, FL (VEN)</name>
+  <description><![CDATA[<div><b>Venice, FL</b><br/>Station ID: VEN<br/>Affiliation: USF<br/>Coords: 27.0756, -82.4511<br/>N 27 4.5334, W 82 27.0667<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>No radial files within 10 days<br /><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=VEN&net=USF&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfw</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-82.451111,27.075556,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Venice, FL (VENI)</name>
+  <description><![CDATA[<div><b>Venice, FL</b><br/>Station ID: VENI<br/>Affiliation: USF<br/>Coords: 27.0776, -82.4516<br/>N 27 4.6570, W 82 27.0980<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 5.263 MHz<br/>Time: 2025-07-15 06:21:00 UTC<br/>Age: 1:15 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=VENI&net=USF&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-82.451633,27.077617,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Key West, FL (WEST)</name>
+  <description><![CDATA[<div><b>Key West, FL</b><br/>Station ID: WEST<br/>Affiliation: USF<br/>Coords: 24.5525, -81.7666<br/>N 24 33.1480, W 81 45.9980<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 5.263 MHz<br/>Time: 2025-07-15 01:51:01 UTC<br/>Age: 5:45 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=WEST&net=USF&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfy</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-81.766633,24.552467,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Gulfport Harbor Pier, MS (GPTP)</name>
+  <description><![CDATA[<div><b>Gulfport Harbor Pier, MS</b><br/>Station ID: GPTP<br/>Affiliation: USM<br/>Coords: 30.3478, -89.0870<br/>N 30 20.8670, W 89 5.2190<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 25.200 MHz<br/>Time: 2025-06-30 19:53:17 UTC<br/>Age: 14 days 11:43 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=GPTP&net=USM&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfr</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-89.086983,30.347783,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Henderson Beach State Park, FL (HBSP)</name>
+  <description><![CDATA[<div><b>Henderson Beach State Park, FL</b><br/>Station ID: HBSP<br/>Affiliation: USM<br/>Coords: 30.3832, -86.4338<br/>N 30 22.9930, W 86 26.0290<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.540 MHz<br/>Time: 2025-07-15 06:50:49 UTC<br/>Age: 0:46 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=HBSP&net=USM&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-86.433817,30.383217,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Orange Beach State Park, AL (OBSP)</name>
+  <description><![CDATA[<div><b>Orange Beach State Park, AL</b><br/>Station ID: OBSP<br/>Affiliation: USM<br/>Coords: 30.2494, -87.6685<br/>N 30 14.9660, W 87 40.1070<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.580 MHz<br/>Time: 2025-07-15 06:50:50 UTC<br/>Age: 0:46 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=OBSP&net=USM&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-87.668450,30.249433,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Pass Christian Yacht Club, MS (PCYC)</name>
+  <description><![CDATA[<div><b>Pass Christian Yacht Club, MS</b><br/>Station ID: PCYC<br/>Affiliation: USM<br/>Coords: 30.3122, -89.2415<br/>N 30 18.7340, W 89 14.4900<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 25.600 MHz<br/>Time: 2025-07-15 06:50:50 UTC<br/>Age: 0:46 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=PCYC&net=USM&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-89.241500,30.312233,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Singing River, MS (SGRV)</name>
+  <description><![CDATA[<div><b>Singing River, MS</b><br/>Station ID: SGRV<br/>Affiliation: USM<br/>Coords: 30.3339, -88.5686<br/>N 30 20.0340, W 88 34.1140<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 4.750 MHz<br/>Time: 2025-07-15 06:50:50 UTC<br/>Age: 0:46 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SGRV&net=USM&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-88.568567,30.333900,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Silver Slipper Casino, MS (SISL)</name>
+  <description><![CDATA[<div><b>Silver Slipper Casino, MS</b><br/>Station ID: SISL<br/>Affiliation: USM<br/>Coords: 30.2392, -89.4239<br/>N 30 14.3510, W 89 25.4330<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 24.550 MHz<br/>Time: 2025-07-15 06:50:51 UTC<br/>Age: 0:45 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SISL&net=USM&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-89.423883,30.239183,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Camp Varnum, RI (CPVN)</name>
+  <description><![CDATA[<div><b>Camp Varnum, RI</b><br/>Station ID: CPVN<br/>Affiliation: WHOI<br/>Coords: 41.4480, -71.4319<br/>N 41 26.8793, W 71 25.9114<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 16.150 MHz<br/>Time: 2025-07-15 04:17:39 UTC<br/>Age: 3:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=CPVN&net=WHOI&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-71.431856,41.447989,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Eastern Point Retreat House, MA (ESPT)</name>
+  <description><![CDATA[<div><b>Eastern Point Retreat House, MA</b><br/>Station ID: ESPT<br/>Affiliation: WHOI<br/>Coords: 42.5862, -70.6506<br/>N 42 35.1750, W 70 39.0334<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.500 MHz<br/>Time: 2025-07-15 07:17:35 UTC<br/>Age: 0:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=ESPT&net=WHOI&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-70.650556,42.586250,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Fourth Cliff Recreation Area, MA (FOCF)</name>
+  <description><![CDATA[<div><b>Fourth Cliff Recreation Area, MA</b><br/>Station ID: FOCF<br/>Affiliation: WHOI<br/>Coords: 42.1599, -70.7049<br/>N 42 9.5950, W 70 42.2930<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 26.310 MHz<br/>Time: 2025-07-15 07:17:37 UTC<br/>Age: 0:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=FOCF&net=WHOI&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-70.704883,42.159917,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Horseneck Beach State Reserve, MA (HBSR)</name>
+  <description><![CDATA[<div><b>Horseneck Beach State Reserve, MA</b><br/>Station ID: HBSR<br/>Affiliation: WHOI<br/>Coords: 41.5088, -71.0687<br/>N 41 30.5280, W 71 4.1220<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 16.150 MHz<br/>Time: 2025-07-15 07:17:37 UTC<br/>Age: 0:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=HBSR&net=WHOI&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-71.068700,41.508800,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Long Point Wildlife Refuge, MA (LPWR)</name>
+  <description><![CDATA[<div><b>Long Point Wildlife Refuge, MA</b><br/>Station ID: LPWR<br/>Affiliation: WHOI<br/>Coords: 41.3488, -70.6391<br/>N 41 20.9280, W 70 38.3460<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 16.150 MHz<br/>Time: 2025-07-15 07:17:37 UTC<br/>Age: 0:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=LPWR&net=WHOI&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-70.639100,41.348800,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Nantucket, MA (NWTP)</name>
+  <description><![CDATA[<div><b>Nantucket, MA</b><br/>Station ID: NWTP<br/>Affiliation: WHOI<br/>Coords: 41.2419, -70.1069<br/>N 41 14.5160, W 70 6.4142<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 16.150 MHz<br/>Time: 2025-07-15 07:17:38 UTC<br/>Age: 0:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=NWTP&net=WHOI&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-70.106903,41.241933,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Popham Beach State Park, ME (POPB)</name>
+  <description><![CDATA[<div><b>Popham Beach State Park, ME</b><br/>Station ID: POPB<br/>Affiliation: WHOI<br/>Coords: 43.7379, -69.7950<br/>N 43 44.2766, W 69 47.6987<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 16.150 MHz<br/>Time: 2025-07-15 01:18:14 UTC<br/>Age: 6:18 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=POPB&net=WHOI&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfy</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-69.794978,43.737944,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Provincetown, MA (PTWN)</name>
+  <description><![CDATA[<div><b>Provincetown, MA</b><br/>Station ID: PTWN<br/>Affiliation: WHOI<br/>Coords: 42.0788, -70.2203<br/>N 42 4.7300, W 70 13.2200<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 13.500 MHz<br/>Time: 2025-07-15 07:17:38 UTC<br/>Age: 0:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=PTWN&net=WHOI&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-70.220333,42.078833,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Salisbury Beach State Reservation, MA (SBSR)</name>
+  <description><![CDATA[<div><b>Salisbury Beach State Reservation, MA</b><br/>Station ID: SBSR<br/>Affiliation: WHOI<br/>Coords: 42.8289, -70.8145<br/>N 42 49.7330, W 70 48.8700<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 5.263 MHz<br/>Time: 2025-07-15 01:18:15 UTC<br/>Age: 6:18 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=SBSR&net=WHOI&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfy</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-70.814500,42.828883,0</coordinates>
+  </Point>
+</Placemark>
+    
+<Placemark>
+  <name>Two Lights State Park, ME (TLSP)</name>
+  <description><![CDATA[<div><b>Two Lights State Park, ME</b><br/>Station ID: TLSP<br/>Affiliation: WHOI<br/>Coords: 43.5592, -70.2060<br/>N 43 33.5520, W 70 12.3625<br/><img src="http://cordc.ucsd.edu/imgs/spacer.gif" width="250" height="16" alt=""/><br/>Ctr Freq: 16.150 MHz<br/>Time: 2025-07-15 07:17:39 UTC<br/>Age: 0:19 (HH:MM)<br/>Format: ruv<br/><a href="https://hfrnet.ucsd.edu/diagnostics/?p=sta&sta=TLSP&net=WHOI&t=0">Station Diagnostics</a></div>]]></description>
+  <styleUrl>#hfg</styleUrl>
+  <Point>
+    <altitudeMode>clampToGround</altitudeMode> 
+    <coordinates>-70.206042,43.559200,0</coordinates>
+  </Point>
+</Placemark>
+    </Document></kml>
