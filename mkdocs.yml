@@ -96,7 +96,37 @@ extra:
         
 nav:
   - Home: 'index.md'
-  
+
+  - SLAM:
+    - Overview: SLAM/README.md
+
+    - SLAM Framework:
+      - Overview: SLAM/slam_frameworks/README.md
+
+    - SLAM Odometry:
+      - Overview: SLAM/slam_odometry/README.md
+      - Visual Odometry: SLAM/slam_odometry/visual_odometry.md
+
+    - SLAM Mapping:
+      - Overview: SLAM/slam_mapping/README.md
+
+    - SLAM Loop Closure:
+      - Overview: SLAM/slam_loopclosure/README.md
+      - Visual Vocabulary: SLAM/slam_loopclosure/visual_vocabulary.md
+
+    - SLAM Benchmarks:
+      - Overview: SLAM/slam_benchmark/README.md
+      - Datasets: SLAM/slam_benchmark/slam_dataset.md
+      - Simulation: SLAM/slam_benchmark/slam_simulation.md
+
+    - SLAM FAQs:
+      - SLAM Run Tips: SLAM/slam_qa/slam_run_tips.md
+
+
+  - GIS:
+    - Overview: GIS/README.md
+
+
   - XR:
     - Overview: XR/README.md
     
