@@ -1,7 +1,7 @@
 #include "util.hpp"
 
 int main(int argc, char** argv) {
-  const std::vector<Mat>& descriptors = get_imgs(argv[1]);
+  const std::vector<Mat>& descriptors = comput_orb_descs(argv[1]);
 
   if (descriptors.empty()) return -1;
 
@@ -11,8 +11,11 @@ int main(int argc, char** argv) {
   std::vector<std::vector<cv::Mat>> vv_descs;
   vv_descs.resize(descriptors.size());
   for (int i = 0; i < vv_descs.size(); i++) vv_descs[i] = to_descriptor_vector(descriptors[i]);
+  std::cout << "training vocabulary with " << vv_descs.size() << " images' descriptors ... " << endl;
   vocab.create(vv_descs);
-  vocab.saveToTextFile("voc.txt");
+  std::cout << "saving vocabulary to voc.txt and voc.bin ... " << endl;
+  // vocab.saveToTextFile("voc.txt");
+  vocab.saveToBinaryFile("voc.bin");
 #endif
 #ifdef WITH_DBOW3
   cout << "creating vocabulary with DBoW3, please wait ... " << endl;
