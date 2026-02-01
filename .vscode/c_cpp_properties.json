@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${env:CG_THIRDPARTY}/x86-64/opencv/include/opencv4",
+                "${env:CG_THIRDPARTY}/x86-64/dbow2/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang-10",
+            "intelliSenseMode": "linux-clang-x64"
+        }
+    ],
+    "version": 4
+}

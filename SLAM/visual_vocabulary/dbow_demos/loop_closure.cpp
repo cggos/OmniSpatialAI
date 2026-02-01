@@ -4,9 +4,16 @@ int main(int argc, char** argv) {
   bool bvoc = false;
   std::string str_voc_file;
 #ifdef WITH_DBOW2
-  str_voc_file = "voc.txt";
-  ORBVocabulary vocab;
-  bvoc = vocab.loadFromTextFile(str_voc_file);
+  str_voc_file = "voc.bin";
+
+  const int k = 9;
+  const int L = 3;
+  const WeightingType weight = TF_IDF;
+  const ScoringType scoring = L1_NORM;
+
+  ORBVocabulary vocab(k, L, weight, scoring);
+
+  bvoc = vocab.loadFromBinaryFile(str_voc_file);
 #endif
 #ifdef WITH_DBOW3
   str_voc_file = "voc.yml.gz";
@@ -20,7 +27,7 @@ int main(int argc, char** argv) {
   }
   cout << "Vocabulary loaded!" << endl << endl;
 
-  const std::vector<Mat>& descriptors = get_imgs(argv[1]);
+  const std::vector<Mat>& descriptors = comput_orb_descs(argv[1]);
   if (descriptors.empty()) return -1;
 
   cout << "comparing images with images " << endl;

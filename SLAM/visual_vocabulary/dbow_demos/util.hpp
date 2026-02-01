@@ -1,5 +1,7 @@
 #pragma once
 
+#include <algorithm>
+#include <filesystem>
 #include <fstream>
 #include <iomanip>
 #include <iostream>
@@ -33,19 +35,28 @@ using namespace cv;
 using namespace std;
 
 // #define DATA_TUM
-const int MAX_NUM = 1000;
+const int MAX_NUM = 500;
 
 std::vector<std::string> load_paths(const std::string& data_dir) {
   vector<string> rgb_files;
 #ifndef DATA_TUM
-  for (int i = 0; i < MAX_NUM; i++) {
-    // std::string name = std::to_string(i+1);
-    std::stringstream ss;
-    ss << std::setw(5) << std::setfill('0') << i;
-    std::string name = ss.str();
-    string path = data_dir + "/" + name + ".png";
-    rgb_files.push_back(path);
+  // read all .png files in the directory and store their absolute paths
+  namespace fs = std::filesystem;
+  if (!fs::exists(data_dir) || !fs::is_directory(data_dir)) {
+    cout << "data directory does not exist or is not a directory: " << data_dir << endl;
+    return {};
   }
+
+  for (const auto& entry : fs::directory_iterator(data_dir)) {
+    if (!entry.is_regular_file()) continue;
+    auto path = entry.path();
+    auto ext = path.extension().string();
+    if (ext == ".png" || ext == ".PNG") {
+      rgb_files.push_back(fs::absolute(path).string());
+    }
+  }
+  // keep deterministic ordering
+  sort(rgb_files.begin(), rgb_files.end());
 #else
   ifstream fin(data_dir + "/associate.txt");
   if (!fin) {
@@ -68,7 +79,7 @@ std::vector<std::string> load_paths(const std::string& data_dir) {
   return rgb_files;
 }
 
-std::vector<Mat> get_imgs(const std::string& data_dir) {
+std::vector<Mat> comput_orb_descs(const std::string& data_dir) {
   vector<string> rgb_files = load_paths(data_dir);
 
   cout << "generating features ... " << endl;
@@ -78,9 +89,12 @@ std::vector<Mat> get_imgs(const std::string& data_dir) {
   for (const string& rgb_file : rgb_files) {
     Mat image = imread(rgb_file);
     if (image.empty()) continue;
+    
     vector<KeyPoint> keypoints;
     Mat descriptor;
     detector->detectAndCompute(image, Mat(), keypoints, descriptor);
+    if(descriptor.empty()) continue;
+
     descriptors.push_back(descriptor);
     cout << "extracting features from image " << index++ << endl;
     if (index > MAX_NUM) break;
