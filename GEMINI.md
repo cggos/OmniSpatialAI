@@ -36,9 +36,9 @@ make -j$(nproc)
 ROS components should be built within a catkin workspace.
 
 ```bash
-# Example for a workspace structure where ROS/ is the source directory
+# Example for a workspace structure where ros/ is the source directory
 cd <your_catkin_ws>
-catkin_make --source /opt/user_data/code/OmniSpatialAI/ROS/
+catkin_make --source /opt/user_data/code/OmniSpatialAI/ros/
 ```
 Note: Ensure ROS dependencies are installed (e.g., `ros-noetic-xacro`, `ros-noetic-robot-state-publisher`).
 

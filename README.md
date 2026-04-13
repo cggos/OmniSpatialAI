@@ -11,11 +11,11 @@ OmniSpatialAI is a comprehensive repository dedicated to the field of Spatial AI
 
 ## 🚀 Key Modules
 
-- **[Control System](./ControlSystem/):** MATLAB/Simulink implementations for digital signal processing and control theory.
-- **[SLAM](./SLAM/):** Advanced algorithms for Visual Odometry, Mapping, and Loop Closure, with benchmark datasets.
-- **[GIS](./GIS/):** Geographic data visualization and processing using Python and Folium.
-- **[Planning](./Planning/):** Path planning and mapping algorithms implemented in C++.
-- **[ROS](./ROS/):** Robot models (URDF/Xacro), sensor simulations (Gazebo), and actionlib tutorials.
+- **[Control System](./control_system/):** MATLAB/Simulink implementations for digital signal processing and control theory.
+- **[SLAM](./slam/):** Advanced algorithms for Visual Odometry, Mapping, and Loop Closure, with benchmark datasets.
+- **[GIS](./gis/):** Geographic data visualization and processing using Python and Folium.
+- **[Planning](./planning/):** Path planning and mapping algorithms implemented in C++.
+- **[ROS](./ros/):** Robot models (URDF/Xacro), sensor simulations (Gazebo), and actionlib tutorials.
 - **[XR & Metaverse](./docs/XR/):** Documentation and frameworks for AR/VR applications and tracking.
 
 ## 🛠 Tech Stack
@@ -29,11 +29,13 @@ OmniSpatialAI is a comprehensive repository dedicated to the field of Spatial AI
 
 ```text
 OmniSpatialAI/
-├── ControlSystem/      # Control theory & DSP (MATLAB)
-├── GIS/                # Geographic Information Systems (Python)
-├── Planning/           # Path planning & Mapping (C++)
-├── ROS/                # ROS packages, URDFs, Gazebo simulations
-├── SLAM/               # Visual Odometry, Mapping, SLAM frameworks
+├── control_system/     # Control theory & DSP (MATLAB)
+│   └── basics/         # Transfer function & step response scripts
+├── gis/                # Geographic Information Systems (Python)
+├── planning/           # Path planning & Mapping (C++)
+├── ros/                # ROS packages, URDFs, Gazebo simulations
+│   └── extras/         # Non-catkin utilities (ros_matlab, ros_video, scripts)
+├── slam/               # Visual Odometry, Mapping, SLAM frameworks
 ├── docs/               # Project documentation (MkDocs source)
 └── mkdocs.yml          # Documentation configuration
 ```
@@ -60,7 +62,7 @@ make -j$(nproc)
 ### ROS
 Ensure you are in a `catkin` workspace:
 ```bash
-catkin_make --source <path_to_omnispatialai>/ROS/
+catkin_make --source <path_to_omnispatialai>/ros/
 ```
 
 ## 📜 License

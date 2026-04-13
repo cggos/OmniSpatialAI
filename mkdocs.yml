@@ -125,7 +125,12 @@ nav:
       - Simulation: SLAM/slam_benchmark/slam_simulation.md
 
     - SLAM FAQs:
+      - Overview: SLAM/slam_qa/slam_faq_index.md
       - SLAM Run Tips: SLAM/slam_qa/slam_run_tips.md
+      - SLAM FAQ: SLAM/slam_qa/slam_faq.md
+      - Company Q&A: SLAM/slam_qa/slam_faq_company.md
+      - FAQ by GaoXiang: SLAM/slam_qa/slam_faq_gx.md
+      - MYNTAI Q&A: SLAM/slam_qa/myntai_qa.md
 
 
   - GIS:
