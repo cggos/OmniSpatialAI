@@ -17,7 +17,7 @@
 #include <random>
 #include <vector>
 
-#include "mapping/paths_cross_points.h"
+#include "sim_path/paths_cross_points.h"
 
 namespace mapping {
 

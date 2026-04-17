@@ -11,7 +11,7 @@
 
 #include <iostream>
 
-#include "mapping/paths_cross_points.h"
+#include "sim_path/paths_cross_points.h"
 
 using namespace mapping;
 

@@ -9,7 +9,7 @@
  *
  */
 
-#include "mapping/paths_cross_points.h"
+#include "sim_path/paths_cross_points.h"
 
 #include <limits>
 
