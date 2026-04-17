@@ -1,0 +1,271 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="diy_robot">
+
+    <link name="base_footprint"/>
+
+    <joint name="base_footprint_joint" type="fixed">
+        <parent link="base_footprint"/>
+        <child link="base_link"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>
+
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <box size="0.4 0.3 0.2"/>
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <box size="0.4 0.3 0.2"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <mass value="8.0"/>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <inertia ixx="0.0533" ixy="0.0" ixz="0.0" iyy="0.08" iyz="0.0" izz="0.1333"/>
+        </inertial>
+    </link>
+
+    <link name="laser_frame">
+        <visual>
+            <geometry>
+                <cylinder radius="0.06" length="0.05"/>
+            </geometry>
+            <material name="black">
+                <color rgba="0.1 0.1 0.1 1"/>
+            </material>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.06" length="0.05"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <mass value="0.3"/>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <inertia ixx="0.0003" ixy="0.0" ixz="0.0" iyy="0.0003" iyz="0.0" izz="0.0003"/>
+        </inertial>
+    </link>
+
+    <joint name="laser_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="laser_frame"/>
+        <origin xyz="0 0 0.175" rpy="0 0 0"/>
+    </joint>
+
+    <!-- Front Caster Supports -->
+    <link name="front_left_support">
+        <visual>
+            <geometry>
+                <box size="0.02 0.02 0.15"/>
+            </geometry>
+            <material name="gray">
+                <color rgba="0.7 0.7 0.7 1"/>
+            </material>
+        </visual>
+        <collision>
+            <geometry>
+                <box size="0.02 0.02 0.15"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <mass value="0.2"/>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001"/>
+        </inertial>
+    </link>
+
+    <link name="front_right_support">
+        <visual>
+            <geometry>
+                <box size="0.02 0.02 0.15"/>
+            </geometry>
+            <material name="gray">
+                <color rgba="0.7 0.7 0.7 1"/>
+            </material>
+        </visual>
+        <collision>
+            <geometry>
+                <box size="0.02 0.02 0.15"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <mass value="0.2"/>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001"/>
+        </inertial>
+    </link>
+
+    <joint name="front_left_support_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="front_left_support"/>
+        <origin xyz="0.15 0.12 -0.025" rpy="0 0 0"/>
+    </joint>
+
+    <joint name="front_right_support_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="front_right_support"/>
+        <origin xyz="0.15 -0.12 -0.025" rpy="0 0 0"/>
+    </joint>
+
+    <!-- Front Caster Wheels -->
+    <link name="front_left_caster">
+        <visual>
+            <geometry>
+                <sphere radius="0.05"/>
+            </geometry>
+            <material name="black">
+                <color rgba="0.1 0.1 0.1 1"/>
+            </material>
+        </visual>
+        <collision>
+            <geometry>
+                <sphere radius="0.05"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <mass value="0.5"/>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <inertia ixx="0.0002" ixy="0.0" ixz="0.0" iyy="0.0002" iyz="0.0" izz="0.0002"/>
+        </inertial>
+    </link>
+
+    <link name="front_right_caster">
+        <visual>
+            <geometry>
+                <sphere radius="0.05"/>
+            </geometry>
+            <material name="black">
+                <color rgba="0.1 0.1 0.1 1"/>
+            </material>
+        </visual>
+        <collision>
+            <geometry>
+                <sphere radius="0.05"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <mass value="0.5"/>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <inertia ixx="0.0002" ixy="0.0" ixz="0.0" iyy="0.0002" iyz="0.0" izz="0.0002"/>
+        </inertial>
+    </link>
+
+    <joint name="front_left_caster_joint" type="fixed">
+        <parent link="front_left_support"/>
+        <child link="front_left_caster"/>
+        <origin xyz="0 0 -0.1" rpy="0 0 0"/>
+    </joint>
+
+    <joint name="front_right_caster_joint" type="fixed">
+        <parent link="front_right_support"/>
+        <child link="front_right_caster"/>
+        <origin xyz="0 0 -0.1" rpy="0 0 0"/>
+    </joint>
+
+    <!-- Rear Wheels (Differential Drive) -->
+    <link name="rear_left_wheel">
+        <visual>
+            <geometry>
+                <cylinder radius="0.075" length="0.05"/>
+            </geometry>
+            <material name="gray">
+                <color rgba="0.5 0.5 0.5 1"/>
+            </material>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.075" length="0.05"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <mass value="1.0"/>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <inertia ixx="0.0014" ixy="0.0" ixz="0.0" iyy="0.0014" iyz="0.0" izz="0.0028"/>
+        </inertial>
+    </link>
+
+    <link name="rear_right_wheel">
+        <visual>
+            <geometry>
+                <cylinder radius="0.075" length="0.05"/>
+            </geometry>
+            <material name="gray">
+                <color rgba="0.5 0.5 0.5 1"/>
+            </material>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.075" length="0.05"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <mass value="1.0"/>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <inertia ixx="0.0014" ixy="0.0" ixz="0.0" iyy="0.0014" iyz="0.0" izz="0.0028"/>
+        </inertial>
+    </link>
+
+    <joint name="rear_left_wheel_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="rear_left_wheel"/>
+        <origin xyz="-0.1 0.15 -0.1" rpy="1.5708 0 0"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+
+    <joint name="rear_right_wheel_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="rear_right_wheel"/>
+        <origin xyz="-0.1 -0.15 -0.1" rpy="1.5708 0 0"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+
+    <gazebo reference="laser_frame">
+        <sensor name="lidar" type="ray">
+            <pose>0 0 0 0 0 0</pose>
+            <visualize>true</visualize>
+            <update_rate>10</update_rate>
+            <ray>
+                <scan>
+                    <horizontal>
+                        <samples>360</samples>
+                        <min_angle>-3.14</min_angle>
+                        <max_angle>3.14</max_angle>
+                    </horizontal>
+                </scan>
+                <range>
+                    <min>0.3</min>
+                    <max>12</max>
+                </range>
+            </ray>
+            <plugin name="laser_controller" filename="libgazebo_ros_ray_sensor.so">
+                <ros>
+                    <argument>~/out:=scan</argument>
+                </ros>
+                <output_type>sensor_msgs/LaserScan</output_type>
+                <frame_name>laser_frame</frame_name>
+            </plugin>
+        </sensor>
+    </gazebo>
+
+    <gazebo>
+        <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
+            <left_joint>rear_left_wheel_joint</left_joint>
+            <right_joint>rear_right_wheel_joint</right_joint>
+
+            <wheel_diameter>0.15</wheel_diameter>
+            <wheel_separation>0.3</wheel_separation>
+
+            <max_wheel_torque>200</max_wheel_torque>
+            <max_wheel_acceleration>10.0</max_wheel_acceleration>
+
+            <odometry_frame>odom</odometry_frame>
+            <robot_base_frame>base_link</robot_base_frame>
+
+            <publish_odom>true</publish_odom>
+            <publish_odom_tf>true</publish_odom_tf>
+            <publish_wheel_tf>true</publish_wheel_tf>
+        </plugin>
+    </gazebo>
+</robot>
