@@ -1,0 +1,10 @@
+[Unit]
+Description=SAI Service
+After=sai_sensor.target
+ 
+[Service]
+User=jetson
+ExecStart=/home/jetson/projects/startup/sai_app.sh
+ 
+[Install]
+WantedBy=multi-user.target
