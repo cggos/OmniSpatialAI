@@ -10,13 +10,14 @@
 # Prerequisites
 
 ```shell
-sudo apt install ros-$ROS_DISTRO-gazebo-ros-pkgs \
-  ros-$ROS_DISTRO-navigation2 \
-  ros-$ROS_DISTRO-nav2-bringup \
-  ros-$ROS_DISTRO-slam-toolbox \
+sudo apt install ros-$ROS_DISTRO-rmw-cyclonedds-cpp \
   ros-$ROS_DISTRO-xacro \
+  ros-$ROS_DISTRO-gazebo-ros-pkgs \
   ros-$ROS_DISTRO-robot-localization \
-  ros-$ROS_DISTRO-rmw-cyclonedds-cpp
+  ros-$ROS_DISTRO-slam-toolbox \
+  ros-$ROS_DISTRO-turtlebot3-cartographer \
+  ros-$ROS_DISTRO-navigation2 \
+  ros-$ROS_DISTRO-nav2-bringup
 ```
 
 # Mapping
@@ -57,7 +58,7 @@ ros2 launch rplidar_ros view_rplidar_a1_launch.py
 ## Run SLAM
 
 ```bash
-ros2 launch slam_toolbox online_async_launch.py []use_sim_time:=True]
+ros2 launch slam_toolbox online_async_launch.py [use_sim_time:=True]
 
 # or if use turtlebot3
 ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True
