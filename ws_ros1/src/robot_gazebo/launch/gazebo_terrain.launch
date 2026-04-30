@@ -23,11 +23,11 @@
 
   <!-- Spawn the robot from the URDF that was loaded into the robot_description parameter -->
   <!-- Convert an xacro to URDF and put on parameter server -->
-  <arg name="model0" default="$(find turtlebot3_description)/urdf/turtlebot3_burger.urdf.xacro" />
-  <arg name="model1" default="$(find cgb_description)/urdf/robot1_base_04.xacro" />
+  <!-- <arg name="model0" default="$(find turtlebot3_description)/urdf/turtlebot3_burger.urdf.xacro" /> -->
+  <arg name="model1" default="$(find robot_description)/urdf/robot1_base_04.xacro" />
 
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" value="$(find cgb_gazebo)/worlds/$(arg world_name).world" />
+    <arg name="world_name" value="$(find robot_description)/worlds/$(arg world_name).world" />
     <arg name="gui" value="$(arg gui)" />
     <arg name="paused" value="$(arg paused)" />
     <arg name="use_sim_time" value="$(arg use_sim_time)" />
@@ -41,7 +41,7 @@
 
   <!-- Spawn a robot into Gazebo -->
   <!-- 
-  <arg name="urdf_file" default="$(find cgb_description)/urdf/robot1.urdf" />
+  <arg name="urdf_file" default="$(find robot_description)/urdf/robot1.urdf" />
   <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
   args="-urdf -model cgbot $(arg Pose) -file $(arg urdf_file)"/> 
   -->

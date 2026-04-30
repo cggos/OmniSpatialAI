@@ -1,5 +1,0 @@
-# cgbot
-
-ChenGuang Robot
-
----
