@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <launch>
-  <arg name="model" default="$(find robot1_description)/urdf/robot1_base_04.xacro"/>
+  <arg name="model" default="$(find robot_description)/urdf/robot1_base_04.xacro"/>
 
   <param name="/use_sim_time" value="true" />
   <param name="robot_description" command="$(find xacro)/xacro.py $(arg model)" />
@@ -30,4 +30,3 @@
 
   <node name="rviz" pkg="rviz" type="rviz" args="-d $(find movebase_demo)/launch/navigation.rviz"/>
 </launch>
-

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(robot1_description)
+project(robot_description)
 
 find_package(catkin REQUIRED COMPONENTS
   fake_localization
@@ -16,7 +16,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 catkin_package(
 #  INCLUDE_DIRS include
-#  LIBRARIES robot1_description
+#  LIBRARIES robot_description
 #  CATKIN_DEPENDS fake_localization laser_filters map_server robot_state_publisher roscpp rospy std_msgs tf urdf xacro
 #  DEPENDS system_lib
 )

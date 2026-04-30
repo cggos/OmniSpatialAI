@@ -208,3 +208,6 @@ __marimo__/
 
 install/
 log/
+devel/
+ws_ros1/.catkin_workspace
+ws_ros1/src/CMakeLists.txt
