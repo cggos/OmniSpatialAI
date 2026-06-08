@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!--
+  Boustrophedon full coverage for the racecar in the runway world.
+  Generates a dense sweep-line path over the free map area and follows
+  it with pure pursuit — no move_base required.
+
+  Usage (two terminals):
+    Terminal 1: roslaunch racecar_gazebo racecar_runway.launch
+    Terminal 2: roslaunch racecar_gazebo racecar_runway_coverage.launch
+
+  Optional parameters:
+    sweep_spacing:=0.6   sweep line spacing [m]
+    safety_margin:=0.30  obstacle inflation radius [m]
+-->
+<launch>
+  <arg name="sweep_spacing" default="0.8"/>
+  <arg name="safety_margin" default="0.30"/>
+
+  <param name="/use_sim_time" value="true"/>
+
+  <!-- Map server -->
+  <node name="map_server" pkg="map_server" type="map_server"
+        args="$(find racecar_gazebo)/map/map_runway.yaml"/>
+
+  <!-- Boustrophedon path generator: reads /map, publishes dense sweep path -->
+  <node pkg="racecar_gazebo" type="coverage_planner.py"
+        name="coverage_planner" output="screen">
+    <param name="sweep_spacing" value="$(arg sweep_spacing)"/>
+    <param name="safety_margin" value="$(arg safety_margin)"/>
+  </node>
+
+  <!-- Pure-pursuit follower: drives the racecar along the coverage path -->
+  <node pkg="racecar_gazebo" type="coverage_pursuit.py"
+        name="coverage_pursuit" output="screen"/>
+
+  <!-- RViz -->
+  <node pkg="rviz" type="rviz" name="rviz"
+        args="-d $(find racecar_gazebo)/config/racecar_rviz.rviz"/>
+
+</launch>

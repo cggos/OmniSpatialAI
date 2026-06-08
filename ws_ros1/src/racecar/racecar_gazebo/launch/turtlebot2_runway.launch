@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!--
+  Turtlebot2 base simulation launch.
+  Spawns the Kobuki robot in the racecar_runway world with keyboard teleoperation.
+  Does NOT modify any racecar launch files.
+
+  Usage:
+    roslaunch racecar_gazebo turtlebot2_runway.launch
+-->
+<launch>
+  <arg name="world_name" default="racecar_runway"/>
+  <arg name="gui"        default="true"/>
+  <arg name="x_pos"      default="-5.388334"/>
+  <arg name="y_pos"      default="-4.094883"/>
+  <arg name="z_pos"      default="0.0"/>
+
+  <!-- Gazebo world (reuses existing .world files) -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find racecar_gazebo)/worlds/$(arg world_name).world"/>
+    <arg name="gui"        value="$(arg gui)"/>
+    <arg name="paused"     value="false"/>
+    <arg name="use_sim_time" value="true"/>
+  </include>
+
+  <!-- Robot URDF -->
+  <param name="robot_description"
+         command="$(find xacro)/xacro --inorder
+                  '$(find turtlebot2_description)/urdf/turtlebot2.urdf.xacro'"/>
+
+  <!-- Spawn Turtlebot2 into Gazebo -->
+  <node name="turtlebot2_spawn" pkg="gazebo_ros" type="spawn_model" output="screen"
+        args="-urdf -param robot_description -model turtlebot2
+              -x $(arg x_pos) -y $(arg y_pos) -z $(arg z_pos)"/>
+
+  <!-- Publish joint states → TF (base_footprint → base_link → wheels/laser) -->
+  <node name="robot_state_publisher" pkg="robot_state_publisher"
+        type="robot_state_publisher" respawn="false" output="screen"/>
+
+  <!-- Relay /odom → /pf/pose/odom keeps the same interface as racecar -->
+  <node name="odom_relay" pkg="topic_tools" type="relay"
+        args="/odom /pf/pose/odom"/>
+
+  <!-- Keyboard teleop (Twist → /cmd_vel) -->
+  <node pkg="racecar_gazebo" type="turtlebot2_keyboard_teleop.py"
+        name="turtlebot2_keyboard_teleop" output="screen"/>
+
+</launch>

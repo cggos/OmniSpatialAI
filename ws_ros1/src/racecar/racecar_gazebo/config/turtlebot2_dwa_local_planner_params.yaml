@@ -1,0 +1,41 @@
+DWAPlannerROS:
+
+  # Robot kinematic limits
+  max_vel_x:     0.5      # m/s forward
+  min_vel_x:    -0.2      # m/s backward (allow slight reverse)
+  max_vel_y:     0.0      # no lateral motion (diff drive)
+  min_vel_y:     0.0
+  max_vel_trans: 0.5
+  min_vel_trans: 0.05
+  max_vel_theta: 1.0      # rad/s
+  min_vel_theta: 0.2
+
+  # Acceleration limits
+  acc_lim_x:     2.0
+  acc_lim_y:     0.0
+  acc_lim_theta: 3.2
+
+  # Goal tolerance
+  xy_goal_tolerance:  0.15
+  yaw_goal_tolerance: 0.1
+  latch_xy_goal_tolerance: false
+
+  # Forward simulation
+  sim_time:        2.0
+  sim_granularity: 0.025
+  vx_samples:      20
+  vy_samples:      0      # diff drive has no lateral samples
+  vth_samples:     40
+
+  # Scoring weights
+  path_distance_bias:    32.0
+  goal_distance_bias:    24.0
+  occdist_scale:          0.02
+  forward_point_distance: 0.325
+  stop_time_buffer:       0.2
+  scaling_speed:          0.25
+  max_scaling_factor:     0.2
+
+  # Oscillation prevention
+  oscillation_reset_dist:  0.05
+  oscillation_reset_angle: 0.2

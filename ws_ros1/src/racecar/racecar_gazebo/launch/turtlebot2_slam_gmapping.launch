@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!--
+  SLAM mapping for Turtlebot2.
+  Run AFTER turtlebot2_runway.launch.
+  Drive the robot around with the keyboard to build the map, then save with:
+    rosrun map_server map_saver -f <map_name>
+
+  Usage (two terminals):
+    Terminal 1: roslaunch racecar_gazebo turtlebot2_runway.launch
+    Terminal 2: roslaunch racecar_gazebo turtlebot2_slam_gmapping.launch
+-->
+<launch>
+
+  <!-- gmapping needs base_frame and odom_frame.
+       Turtlebot2 diff-drive plugin publishes odom→base_footprint TF. -->
+  <node pkg="gmapping" type="slam_gmapping" name="slam_gmapping" output="screen">
+    <param name="base_frame"  value="base_footprint"/>
+    <param name="odom_frame"  value="odom"/>
+    <param name="map_frame"   value="map"/>
+
+    <!-- Laser topic is /scan (same as racecar) -->
+    <param name="map_update_interval" value="2.0"/>
+    <param name="maxUrange"  value="8.0"/>
+    <param name="sigma"      value="0.05"/>
+    <param name="kernelSize" value="1"/>
+    <param name="lstep"      value="0.05"/>
+    <param name="astep"      value="0.05"/>
+    <param name="iterations" value="5"/>
+    <param name="lsigma"     value="0.075"/>
+    <param name="ogain"      value="3.0"/>
+    <param name="lskip"      value="0"/>
+    <param name="minimumScore" value="50"/>
+    <param name="srr"  value="0.01"/>
+    <param name="srt"  value="0.02"/>
+    <param name="str"  value="0.01"/>
+    <param name="stt"  value="0.02"/>
+    <param name="linearUpdate"  value="0.05"/>
+    <param name="angularUpdate" value="0.05"/>
+    <param name="temporalUpdate" value="-1.0"/>
+    <param name="resampleThreshold" value="0.5"/>
+    <param name="particles" value="30"/>
+    <param name="xmin"  value="-50.0"/>
+    <param name="ymin"  value="-50.0"/>
+    <param name="xmax"  value=" 50.0"/>
+    <param name="ymax"  value=" 50.0"/>
+    <param name="delta"    value="0.05"/>
+    <param name="llsamplerange" value="0.01"/>
+    <param name="llsamplestep"  value="0.01"/>
+    <param name="lasamplerange" value="0.005"/>
+    <param name="lasamplestep"  value="0.005"/>
+  </node>
+
+  <!-- RViz for monitoring the mapping process -->
+  <node pkg="rviz" type="rviz" name="rviz"
+        args="-d $(find racecar_gazebo)/config/turtlebot2_navigation.rviz"/>
+
+</launch>

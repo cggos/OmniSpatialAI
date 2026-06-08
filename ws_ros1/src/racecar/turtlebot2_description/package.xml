@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package>
+  <name>turtlebot2_description</name>
+  <version>0.0.1</version>
+  <description>Turtlebot2 (Kobuki) robot description for Gazebo simulation with Hokuyo LiDAR</description>
+  <maintainer email="cggosc@gmail.com">Gavin Gao</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>robot_state_publisher</run_depend>
+  <run_depend>xacro</run_depend>
+  <run_depend>gazebo_ros</run_depend>
+
+  <export>
+    <gazebo_ros gazebo_model_path="${prefix}/.." />
+  </export>
+</package>
