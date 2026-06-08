@@ -1,0 +1,12 @@
+# Directories to be ignored
+build/
+build-*/
+Output/
+
+# Compiled Object files
+*.o
+*.obj
+*.pro.user*
+
+# Executables
+*.exe
